@@ -34,6 +34,7 @@
     import Header from "../../../../../components/header.svelte";
     import MmCard from "../../../../../components/mm-card.svelte";
     import Squeeze from "../../../../../components/squeeze.svelte";
+    import { getUnit } from "$lib/entities/units";
 
     let materialsWithProportions: (Material & { proportion: Proportion })[] =
         $state([]);
@@ -89,6 +90,7 @@
                     activeClasses="p-4 text-white rounded-xl bg-primary shadow-xl text-lg"
                     inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
                 >
+                    <h1 class="text-gray-600">Mix</h1>
                     <div class="mb-6">
                         <MmCard
                             title={mix.name}
@@ -148,11 +150,16 @@
                                             >{material.name}</TableBodyCell
                                         >
                                         <TableBodyCell class="text-center"
-                                            >{material.proportion
-                                                ?.quantity}</TableBodyCell
-                                        >
+                                            >{material.proportion?.quantity}
+                                            {#await getUnit(material.proportion?.unit_id) then unit}
+                                                {unit.symbol}
+                                            {/await}
+                                        </TableBodyCell>
                                         <TableBodyCell class="text-center"
-                                            >{material.cost_per_unit}</TableBodyCell
+                                            >{material.cost_per_unit}
+                                            {#await getUnit(material.unit_id) then unit}
+                                                {unit.symbol}
+                                            {/await}</TableBodyCell
                                         >
                                         <TableBodyCell
                                             tdClass="flex justify-end gap-6"
@@ -232,15 +239,34 @@
                                     <TableBodyCell class="text-center"
                                         >{testResult.property_measured}</TableBodyCell
                                     >
-                                    <TableBodyCell class="text-center"
-                                        >{testResult.result}</TableBodyCell
-                                    >
+                                    <TableBodyCell class="text-center">
+                                        {testResult.result}
+                                        {#await getUnit(testResult.unit_id) then unit}
+                                            {unit.symbol}
+                                        {/await}
+                                    </TableBodyCell>
                                     <TableBodyCell class="text-center"
                                         >{formatDate(
                                             testResult.test_date,
                                         )}</TableBodyCell
                                     >
-                                    <TableBodyCell tdClass="flex justify-end">
+                                    <TableBodyCell
+                                        tdClass="flex justify-end gap-6"
+                                    >
+                                        <Button
+                                            class="flex gap-2 text-gray-600 p-2"
+                                            onclick={(e: any) => {
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                goto(
+                                                    `/update-test-result/${testResult.id}`,
+                                                );
+                                            }}
+                                        >
+                                            Update
+                                            <EditOutline class="h-6 w-6"
+                                            ></EditOutline>
+                                        </Button>
                                         <Button
                                             class="flex gap-2 p-2 text-gray-600"
                                             onclick={(e: any) => {

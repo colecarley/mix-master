@@ -135,20 +135,22 @@
                     </button>
                 </div>
 
-                <Listgroup items={mixes} let:item class="shadow-xl" active>
-                    <a
-                        href="/projects/{projectId}/mixes/{item.id}"
-                        class="flex justify-between w-full"
-                    >
-                        <div class="flex flex-col">
-                            <div class="text-start">
-                                <h2 class="mb-2">{item.name}</h2>
-                                <p>{formatDate(item.created_at)}</p>
+                {#if mixes.length}
+                    <Listgroup items={mixes} let:item class="shadow-xl" active>
+                        <a
+                            href="/projects/{projectId}/mixes/{item.id}"
+                            class="flex justify-between w-full"
+                        >
+                            <div class="flex flex-col">
+                                <div class="text-start">
+                                    <h2 class="mb-2">{item.name}</h2>
+                                    <p>{formatDate(item.created_at)}</p>
+                                </div>
+                                <p class="text-start">{item.description}</p>
                             </div>
-                            <p class="text-start">{item.description}</p>
-                        </div>
-                    </a>
-                </Listgroup>
+                        </a>
+                    </Listgroup>
+                {/if}
             </TabItem>
         </Tabs>
     </Squeeze>

@@ -1,0 +1,1580 @@
+one,1
+one per one,1/1
+minute [unit of angle],
+second [unit of angle],""""
+nil,()
+British thermal unit (thermochemical) per pound degree Rankine,(Btuth/°R)/lb
+centimetre per second bar,(cm/s)/bar
+centimetre per second kelvin,(cm/s)/K
+foot per second degree Fahrenheit,(ft/s)/°F
+foot per second psi,(ft/s)/psi
+inch per second degree Fahrenheit,(in/s)/°F
+inch per second psi,(in/s)/psi
+kilocalorie (international table) per gram kelvin,(kcalIT/K)/g
+kilogram per cubic decimetre bar,(kg/dm³)/bar
+kilogram per cubic decimetre kelvin,(kg/dm³)/K
+kilogram per cubic metre pascal,(kg/m³)/Pa
+kilogram per second pascal,(kg/s)/Pa
+kilomole per cubic metre bar,(kmol/m³)/bar
+kilomole per cubic metre kelvin,(kmol/m³)/K
+pound (avoirdupois) per cubic foot degree Fahrenheit,(lb/ft³)/°F
+pound (avoirdupois) per cubic foot psi,(lb/ft³)/psi
+pound (avoirdupois) per hour degree Fahrenheit,(lb/h)/°F
+pound (avoirdupois) per hour psi,(lb/h)/psi
+pound (avoirdupois) per cubic inch degree Fahrenheit,(lb/in³)/°F
+pound (avoirdupois) per cubic inch psi,(lb/in³)/psi
+pound (avoirdupois) per minute psi,(lb/min)/psi
+pound (avoirdupois) per second degree Fahrenheit,(lb/s)/°F
+pound (avoirdupois) per second psi,(lb/s)/psi
+metre per second bar,(m/s)/bar
+metre per second kelvin,(m/s)/K
+metre per second pascal,(m/s)/Pa
+square metre per second pascal,(m²/s)/Pa
+cubic metre per second square metre,(m³/s)/m²
+cubic metre per second pascal,(m³/s)/Pa
+milligram per cubic metre bar,(mg/m³)/bar
+milligram per cubic metre kelvin,(mg/m³)/K
+millilitre per square centimetre minute,(ml/min)/cm²
+mole per kilogram bar,(mol/kg)/bar
+mole per kilogram kelvin,(mol/kg)/K
+mol per kilogram pascal,(mol/kg)/Pa
+mole per litre bar,(mol/l)/bar
+mole per litre kelvin,(mol/l)/K
+mole per cubic metre bar,(mol/m³)/bar
+mole per cubic metre kelvin,(mol/m³)/K
+mol per cubic metre pascal,(mol/m³)/Pa
+mole per cubiv metre to the power sum of stoichiometric numbers,(mol/m³)∑νB
+newton second per square metre,(N/m²)·s
+poundal second per square foot,(pdl/ft²)·s
+poundal second per square inch,(pdl/in²)·s
+tonne per day bar,(t/d)/bar
+tonne per day kelvin,(t/d)/K
+tonne per hour bar,(t/h)/bar
+tonne per hour kelvin,(t/h)/K
+tonne per cubic metre bar,(t/m³)/bar
+tonne per cubic metre kelvin,(t/m³)/K
+tonne per minute bar,(t/min)/bar
+tonne per minute kelvin,(t/min)/K
+tonne per second bar,(t/s)/bar
+tonne per second kelvin,(t/s)/K
+ton short per hour psi,(ton (US)/h)/psi
+ton (US shipping),(US) shipping ton
+microgram per cubic metre bar,(µg/m³)/bar
+microgram per cubic metre kelvin,(µg/m³)/K
+percent,% or pct
+percent per degree,%/°
+percent per degree Celsius,%/°C
+percent per hundred,%/100
+percent per thousand,%/1000
+percent per ten thousand,%/10000
+percent per one hundred thousand,%/100000
+percent per bar,%/bar
+percent per decakelvin,%/daK
+percent per hectobar,%/hbar
+percent per inch,%/in
+percent per kelvin,%/K
+percent per metre,%/m
+percent per millimetre,%/mm
+percent per month,%/mo
+percent per volt,%/V
+percent per ohm,%/Ω
+part per thousand,‰
+per mille per psi,‰/psi
+degree [unit of angle],°
+degree per metre,°/m
+degree per second,°/s
+degree [unit of angle] per second squared,°/s²
+degree API,°API
+degree Balling,°Balling
+degree Baume (origin scale),°Bé
+degree Baume (US heavy),°Bé (US heavy)
+degree Baume (US light),°Bé (US light)
+degree Brix,°Bx
+degree Celsius,°C
+degree Celsius per bar,°C/bar
+degree Celsius per hour,°C/h
+degree Celsius per kelvin,°C/K
+degree Celsius per minute,°C/min
+degree Celsius per second,°C/s
+degree Fahrenheit,°F
+degree Fahrenheit hour square foot per British thermal unit (international table),°F·h·ft²/BtuIT
+degree Fahrenheit hour square foot per British thermal unit (thermochemical),°F·h·ft²/Btuth
+degree Fahrenheit per bar,°F/bar
+degree Fahrenheit per hour,°F/h
+degree Fahrenheit per kelvin,°F/K
+degree Fahrenheit per minute,°F/min
+degree Fahrenheit per second,°F/s
+degree Oechsle,°Oechsle
+degree Plato,°P
+degree Rankine,°R
+degree Rankine per hour,°R/h
+degree Rankine per minute,°R/min
+degree Rankine per second,°R/s
+degree Twaddell,°Tw
+second per radian cubic metre,1/(Hz·rad·m³)
+reciprocal volt - ampere reciprocal second,1/(V·A·s)
+reciprocal degree Fahrenheit,1/°F
+reciprocal bar,1/bar
+reciprocal cubic foot,1/ft³
+reciprocal hour,1/h
+reciprocal inch,1/in
+reciprocal square inch,1/in²
+reciprocal cubic inch,1/in³
+reciprocal joule,1/J
+reciprocal kilovolt - ampere reciprocal hour,1/kVAh
+reciprocal litre,1/l
+reciprocal megakelvin or megakelvin to the power minus one,1/MK
+reciprocal cubic millimetre,1/mm³
+reciprocal month,1/mo
+reciprocal psi,1/psi
+reciprocal radian,1/rad
+reciprocal volt,1/V
+weber to the power minus one,1/Wb
+reciprocal week,1/wk
+reciprocal year,1/y
+reciprocal cubic yard,1/yd³
+ampere,A
+are,a
+angstrom,Å
+ampere hour,A·h
+ampere square metre,A·m²
+ampere square metre per joule second,A·m²/(J·s)
+ampere minute,A·min
+ampere second,A·s
+ampere per square metre kelvin squared,A/(m²·K²)
+ampere per centimetre,A/cm
+ampere per square centimetre,A/cm²
+ampere per kilogram,A/kg
+ampere per metre,A/m
+ampere per square metre,A/m²
+ampere per millimetre,A/mm
+ampere per square millimetre,A/mm²
+ampere per pascal,A/Pa
+reciprocal angstrom,Å⁻¹
+ampere squared second,A²·s
+acre,acre
+acre-foot (based on U.S. survey foot),acre-ft (US survey)
+attofarad,aF
+attojoule,aJ
+technical atmosphere,at
+technical atmosphere per metre,at/m
+standard atmosphere,atm
+standard atmosphere per metre,Atm/m
+american wire gauge,AWG
+barn,b
+bel,B
+barn per steradian electronvolt,b/(sr·eV)
+barn per electronvolt,b/eV
+bel per metre,B/m
+barn per steradian,b/sr
+bar [unit of pressure],bar
+bar litre per second,bar·l/s
+bar cubic metre per second,bar·m³/s
+bar per bar,bar/bar
+bar per kelvin,bar/K
+barrel (US),barrel (US)
+barrel (US) per day,barrel (US)/d
+barrel (US) per minute,barrel (US)/min
+barrel (UK petroleum),bbl (UK liq.)
+barrel (UK petroleum) per day,bbl (UK liq.)/d
+barrel (UK petroleum) per hour,bbl (UK liq.)/h
+barrel (UK petroleum) per minute,bbl (UK liq.)/min
+barrel (UK petroleum) per second,bbl (UK liq.)/s
+dry barrel (US),bbl (US)
+barrel (US petroleum) per hour,bbl (US)/h
+barrel (US petroleum) per second,bbl (US)/s
+baud,Bd
+Beaufort,Bft
+brake horse power,BHP
+biot,Bi
+bit,bit
+bit per metre,bit/m
+bit per square metre,bit/m²
+bit per cubic metre,bit/m³
+bit per second,bit/s
+horsepower (boiler),boiler hp
+big point,bp
+beats per minute,BPM
+becquerel,Bq
+becquerel per kilogram,Bq/kg
+becquerel per cubic metre,Bq/m³
+ton (UK shipping),British shipping ton
+British thermal unit (mean),Btu
+British thermal unit (39 ºF),Btu (39 ºF)
+British thermal unit (59 ºF),Btu (59 ºF)
+British thermal unit (60 ºF),Btu (60 ºF)
+Btu per cubic foot,BTU/ft³
+British thermal unit (international table),BtuIT
+British thermal unit (international table) foot per hour square foot degree Fahrenheit,BtuIT·ft/(h·ft²·°F)
+British thermal unit (international table) inch per hour square foot degree Fahrenheit,BtuIT·in/(h·ft²·°F)
+British thermal unit (international table) inch per second square foot degree Fahrenheit,BtuIT·in/(s·ft²·°F)
+British thermal unit (international table) per square foot hour,BtuIT/(ft²·h)
+British thermal unit (international table) per square foot second,BtuIT/(ft²·s)
+British thermal unit (international table) per hour square foot degree Rankine,BtuIT/(h·ft²·°R)
+British thermal unit (international table) per hour square foot degree Fahrenheit,BtuIT/(h·ft²·ºF)
+British thermal unit (international table) per square inch second,BtuIT/(in²·s)
+British thermal unit (international table) per pound degree Fahrenheit,BtuIT/(lb·°F)
+British thermal unit (international table) per pound degree Rankine,BtuIT/(lb·°R)
+British thermal unit (international table) per second foot degree Rankine,BtuIT/(s·ft·°R)
+British thermal unit (international table) per second square foot degree Rankine,BtuIT/(s·ft²·°R)
+British thermal unit (international table) per second square foot degree Fahrenheit,BtuIT/(s·ft²·ºF)
+British thermal unit (international table) per square foot,BtuIT/ft²
+British thermal unit (international table) per cubic foot,BtuIT/ft³
+British thermal unit (international table) per hour,BtuIT/h
+million Btu(IT) per hour,BtuIT/h
+British thermal unit (international table) per pound,BtuIT/lb
+British thermal unit (international table) per minute,BtuIT/min
+British thermal unit (international table) per degree Fahrenheit,BtuIT/ºF
+British thermal unit (international table) per degree Rankine,BtuIT/ºR
+British thermal unit (international table) per second,BtuIT/s
+British thermal unit (thermochemical) foot per hour square foot degree Fahrenheit,Btuth·ft/(h·ft²·°F)
+British thermal unit (thermochemical) inch per hour square foot degree Fahrenheit,Btuth·in/(h·ft²·°F)
+British thermal unit (thermochemical) inch per second square foot degree Fahrenheit,Btuth·in/(s·ft²·°F)
+British thermal unit (thermochemical) per square foot hour,Btuth/(ft²·h)
+British thermal unit (thermochemical) per square foot minute,Btuth/(ft²·min)
+British thermal unit (thermochemical) per square foot second,Btuth/(ft²·s)
+British thermal unit (thermochemical) per hour square foot degree Fahrenheit,Btuth/(h·ft²·ºF)
+British thermal unit (thermochemical) per pound degree Fahrenheit,Btuth/(lb·°F)
+British thermal unit (thermochemical) per second square foot degree Fahrenheit,Btuth/(s·ft²·ºF)
+British thermal unit (thermochemical) per square foot,Btuth/ft²
+British thermal unit (thermochemical) per cubic foot,Btuth/ft³
+British thermal unit (thermochemical) per hour,Btuth/h
+British thermal unit (thermochemical) per pound,Btuth/lb
+British thermal unit (thermochemical) per minute,Btuth/min
+British thermal unit (thermochemical) per degree Fahrenheit,Btuth/ºF
+British thermal unit (thermochemical) per degree Rankine,Btuth/ºR
+British thermal unit (thermochemical) per second,Btuth/s
+bushel (UK) per day,bu (UK)/d
+bushel (UK) per hour,bu (UK)/h
+bushel (UK) per minute,bu (UK)/min
+bushel (UK) per second,bu (UK)/s
+bushel (US dry) per day,bu (US dry)/d
+bushel (US dry) per hour,bu (US dry)/h
+bushel (US dry) per minute,bu (US dry)/min
+bushel (US dry) per second,bu (US dry)/s
+bushel (US),bu (US)
+bushel (UK),bushel (UK)
+byte,byte
+byte per second,byte/s
+coulomb,C
+coulomb metre,C·m
+coulomb square metre per kilogram,C·m²/kg
+coulomb metre squared per volt,C·m²/V
+coulomb per kilogram second,C/(kg·s)
+coulomb per square centimetre,C/cm²
+coulomb per cubic centimetre,C/cm³
+coulomb per kilogram,C/kg
+coulomb per metre,C/m
+coulomb per square metre,C/m²
+coulomb per cubic metre,C/m³
+coulomb per square millimetre,C/mm²
+coulomb per cubic millimetre,C/mm³
+coulomb per mole,C/mol
+calorie,cal
+calorie (mean),cal
+calorie per gram,cal/g
+15 °C calorie,cal₁₅
+calorie (20 ºC),cal₂₀
+calorie (international table),calIT
+calorie (international table) per gram degree Celsius,calIT/(g·°C)
+calorie (international table) per gram kelvin,calIT/(g·K)
+calorie (international table) per second centimetre kelvin,calIT/(s·cm·K)
+calorie (international table) per second square centimetre kelvin,calIT/(s·cm²·K)
+calorie (international table) per gram,calIT/g
+calorie (thermochemical),calth
+calorie (thermochemical) per centimetre second degree Celsius,calth/(cm·s·°C)
+calorie (thermochemical) per square centimetre minute,calth/(cm²·min)
+calorie (thermochemical) per square centimetre second,calth/(cm²·s)
+calorie (thermochemical) per gram degree Celsius,calth/(g·°C)
+calorie (thermochemical) per gram kelvin,calth/(g·K)
+calorie (thermochemical) per second centimetre kelvin,calth/(s·cm·K)
+calorie (thermochemical) per second square centimetre kelvin,calth/(s·cm²·K)
+calorie (thermochemical) per square centimetre,calth/cm²
+calorie (thermochemical) per gram,calth/g
+calorie (thermochemical) per minute,calth/min
+calorie (thermochemical) per second,calth/s
+candela,cd
+candela per square foot,cd/ft²
+candela per square inch,cd/in²
+candela per square metre,cd/m²
+centigram,cg
+Gunter's chain,ch (UK)
+chain (based on U.S. survey foot),ch (US survey)
+curie,Ci
+curie per kilogram,Ci/kg
+centilitre,cl
+clo,clo
+centimetre,cm
+conventional centimetre of water,cm H₂O
+centimetre of mercury,cm Hg
+centimetre per bar,cm/bar
+centimetre per hour,cm/h
+centimetre per kelvin,cm/K
+centimetre per second,cm/s
+centimetre per second squared,cm/s²
+reciprocal centimetre,cm⁻¹
+reciprocal cubic centimetre,cm⁻³
+square centimetre,cm²
+square centimetre per steradian erg,cm²/(sr·erg)
+square centimetre per erg,cm²/erg
+square centimetre per gram,cm²/g
+square centimetre per second,cm²/s
+cubic centimetre,cm³
+cubic centimetre per day bar,cm³/(d·bar)
+cubic centimetre per day kelvin,cm³/(d·K)
+cubic centimetre per hour bar,cm³/(h·bar)
+cubic centimetre per hour kelvin,cm³/(h·K)
+cubic centimetre per minute bar,cm³/(min·bar)
+cubic centimetre per minute kelvin,cm³/(min·K)
+cubic centimetre per second bar,cm³/(s·bar)
+cubic centimetre per second kelvin,cm³/(s·K)
+cubic centimetre per bar,cm³/bar
+cubic centimetre per day,cm³/d
+cubic centimetre per hour,cm³/h
+cubic centimetre per kelvin,cm³/K
+cubic centimetre per cubic metre,cm³/m³
+cubic centimetre per minute,cm³/min
+cubic centimetre per mole,cm³/mol
+cubic centimetre per second,cm³/s
+centimetre of water (4 ºC),cmH₂O (4 °C)
+centimetre of mercury (0 ºC),cmHg (0 ºC)
+circular mil,cmil
+centinewton metre,cN·m
+cord (128 ft3),cord
+centipoise,cP
+centipoise per bar,cP/bar
+centipoise per kelvin,cP/K
+centistokes,cSt
+cup [unit of volume],cup (US)
+cheval vapeur,CV
+hundred weight (UK),cwt (UK)
+hundred pound (cwt) / hundred weight (US),cwt (US)
+day,d
+reciprocal day,d⁻¹
+decare,daa
+decagram,dag
+decalitre,dal
+decametre,dam
+square decametre,dam²
+cubic decametre,dam³
+decapascal,daPa
+decibel,dB
+decibel per kilometre,dB/km
+decibel per metre,dB/m
+Decibel-milliwatts,dBm
+Decibel watt,dBW
+decade (logarithmic),dec
+degree day,deg da
+denier,den
+denier,den (g/9 km)
+decigram,dg
+decilitre,dl
+decilitre per gram,dl/g
+decimetre,dm
+square decimetre,dm²
+cubic decimetre,dm³
+cubic decimetre per day,dm³/d
+cubic decimetre per hour,dm³/h
+cubic decimetre per kilogram,dm³/kg
+cubic decimetre per cubic metre,dm³/m³
+cubic decimetre per minute,dm³/min
+cubic decimetre per mole,dm³/mol
+cubic decimetre per second,dm³/s
+decinewton metre,dN·m
+dozen,DOZ
+dots per inch,dpi
+dioptre,dpt
+dry gallon (US),dry gal (US)
+dry pint (US),dry pt (US)
+dry quart (US),dry qt (US)
+decitonne,dt or dtn
+decitex,dtex (g/10km)
+deadweight tonnage,dwt
+dyne,dyn
+dyne centimetre,dyn·cm
+dyne metre,dyn·m
+dyne second per centimetre,dyn·s/cm
+dyne second per cubic centimetre,dyn·s/cm³
+dyne second per centimetre to the fifth power,dyn·s/cm⁵
+dyne per centimetre,dyn/cm
+dyne per square centimetre,dyn/cm²
+erlang,E
+exabit per second,Ebit/s
+exbibit per metre,Eibit/m
+exbibit per square metre,Eibit/m²
+exbibit per cubic metre,Eibit/m³
+exbibyte,Eibyte
+exajoule,EJ
+horsepower (electric),electric hp
+erg,erg
+erg square centimetre,erg·cm²
+erg square centimetre per gram,erg·cm²/g
+erg per square centimetre second,erg/(cm²·s)
+erg per second square centimetre,erg/(s·cm²)
+erg per centimetre,erg/cm
+erg per cubic centimetre,erg/cm³
+erg per gram,erg/g
+erg per gram second,erg/g·s
+erg per second,erg/s
+electronvolt,eV
+electronvolt square metre,eV·m²
+electronvolt square metre per kilogram,eV·m²/kg
+electronvolt per metre,eV/m
+reciprocal electron volt per cubic metre,eV⁻¹/m³
+farad,F
+farad per kilometre,F/km
+farad per metre,F/m
+board foot,fbm
+French gauge,Fg
+failures in time,FIT
+femtojoule,fJ
+femtolitre,fl
+fluid ounce (UK),fl oz (UK)
+ounce (UK fluid) per day,fl oz (UK)/d
+ounce (UK fluid) per hour,fl oz (UK)/h
+ounce (UK fluid) per minute,fl oz (UK)/min
+ounce (UK fluid) per second,fl oz (UK)/s
+fluid ounce (US),fl oz (US)
+ounce (US fluid) per day,fl oz (US)/d
+ounce (US fluid) per hour,fl oz (US)/h
+ounce (US fluid) per minute,fl oz (US)/min
+ounce (US fluid) per second,fl oz (US)/s
+femtometre,fm
+Formazin nephelometric unit,FNU
+franklin,Fr
+foot,ft
+foot (U.S. survey),ft (US survey)
+foot of water,ft H₂O
+foot of mercury,ft Hg
+foot pound-force,ft·lbf
+foot pound-force per hour,ft·lbf/h
+foot pound-force per minute,ft·lbf/min
+foot pound-force per second,ft·lbf/s
+foot poundal,ft·pdl
+foot per degree Fahrenheit,ft/°F
+foot per hour,ft/h
+foot per minute,ft/min
+foot per psi,ft/psi
+foot per second,ft/s
+foot per second squared,ft/s²
+square foot,ft²
+square foot per hour,ft²/h
+square foot per second,ft²/s
+cubic foot,ft³
+cubic foot per minute per square foot,ft³/(min/ft²)
+cubic foot per degree Fahrenheit,ft³/°F
+cubic foot per day,ft³/d
+cubic foot per hour,ft³/h
+cubic foot per pound,ft³/lb
+cubic foot per minute,ft³/min
+cubic foot per psi,ft³/psi
+cubic foot per second,ft³/s
+foot to the fourth power,ft⁴
+footcandle,ftc
+fathom,fth
+foot of water (39.2 ºF),"ftH₂O (39,2 ºF)"
+footlambert,ftL
+furlong,fur
+gram,g
+gram centimetre per second,g·(cm/s)
+gram millimetre,g·mm
+gram per centimetre second,g/(cm·s)
+gram per cubic centimetre bar,g/(cm³·bar)
+gram per cubic centimetre kelvin,g/(cm³·K)
+gram per day bar,g/(d·bar)
+gram per day kelvin,g/(d·K)
+gram per cubic decimetre bar,g/(dm³·bar)
+gram per cubic decimetre kelvin,g/(dm³·K)
+gram per hour bar,g/(h·bar)
+gram per hour kelvin,g/(h·K)
+gram per litre bar,g/(l·bar)
+gram per litre kelvin,g/(l·K)
+gram per cubic metre bar,g/(m³·bar)
+gram per cubic metre kelvin,g/(m³·K)
+gram per minute bar,g/(min·bar)
+gram per minute kelvin,g/(min·K)
+gram per millilitre bar,g/(ml·bar)
+gram per millilitre kelvin,g/(ml·K)
+gram per second bar,g/(s·bar)
+gram per second kelvin,g/(s·K)
+gram per bar,g/bar
+gram per square centimetre,g/cm²
+gram per cubic centimetre,g/cm³
+gram per day,g/d
+gram per cubic decimetre,g/dm³
+gram per hour,g/h
+gram per hertz,g/Hz
+gram per kelvin,g/K
+gram per litre,g/l
+gram per metre (gram per 100 centimetres),g/m
+gram per square metre,g/m²
+gram per cubic metre,g/m³
+gram per minute,g/min
+gram per millilitre,g/ml
+gram per millimetre,g/mm
+gram per square millimetre,g/mm²
+gram per mole,g/mol
+gram per second,g/s
+gal,Gal
+gallon (UK),gal (UK)
+Imperial gallon per minute,gal (UK) /min
+gallon (UK) per day,gal (UK)/d
+gallon (UK) per hour,gal (UK)/h
+gallon (UK) per second,gal (UK)/s
+gallon (US liquid) per second,gal (US liq.)/s
+gallon (US),gal (US)
+US gallon per minute,gal (US) /min
+gallon (US) per day,gal (US)/d
+gallon (US) per hour,gal/h
+gigabit,Gbit
+gigabit per second,Gbit/s
+gigabecquerel,GBq
+gigabyte,Gbyte
+gigabyte per second,Gbyte/s
+gigacoulomb per cubic metre,GC/m³
+gigaelectronvolt,GeV
+gram-force per square centimetre,gf/cm²
+gigahertz,GHz
+gigahertz metre,GHz·m
+gilbert,Gi
+gill (UK),gi (UK)
+gill (UK) per day,gi (UK)/d
+gill (UK) per hour,gi (UK)/h
+gill (UK) per minute,gi (UK)/min
+gill (UK) per second,gi (UK)/s
+gill (US),gi (US)
+gill (US) per day,gi (US)/d
+gill (US) per hour,gi (US)/h
+gill (US) per minute,gi (US)/min
+gill (US) per second,gi (US)/s
+gram of fissile isotope,gi F/S
+gibibit,Gibit
+gibibit per metre,Gibit/m
+gibibit per square metre,Gibit/m²
+gibibit per cubic metre,Gibit/m³
+gibibyte,Gibyte
+gigajoule,GJ
+standard acceleration of free fall,gn
+gon,gon
+gigapascal,GPa
+grain,gr
+gross,gr
+grain per gallon (US),gr/gal (US)
+gauss,Gs
+gigawatt,GW
+gigawatt hour,GW·h
+gray,Gy
+gray per hour,Gy/h
+gray per minute,Gy/min
+gray per second,Gy/s
+gigaohm,GΩ
+gigaohm metre,GΩ·m
+gigaohm per metre,GΩ/m
+henry,H
+hour,h
+henry per kiloohm,H/kΩ
+henry per metre,H/m
+henry per ohm,H/Ω
+reciprocal henry,H⁻¹
+hectare,ha
+hartley,Hart
+hartley per second,Hart/s
+hectobar,hbar
+hectogram,hg
+Hefner-Kerze,HK
+hectolitre,hl
+hectometre,hm
+square hectometre,hm²
+cubic hectometre,hm³
+hectopascal,hPa
+hectopascal litre per second,hPa·l/s
+hectopascal cubic metre per second,hPa·m³/s
+hectopascal per bar,hPa/bar
+hectopascal per kelvin,hPa/K
+hectopascal per metre,hPa/m
+hertz,Hz
+hertz metre,Hz·m
+international candle,IK
+inch,in
+inch pound (pound inch),in·lb
+inch poundal,in·pdl
+inch per degree Fahrenheit,in/°F
+inch per minute,in/min
+inch per psi,in/psi
+inch per two pi radiant,in/revolution
+inch per second,in/s
+inch per second squared,in/s²
+inch per year,in/y
+square inch,in²
+square inch per second,in²/s
+cubic inch,in³
+cubic inch per hour,in³/h
+cubic inch per pound,in³/lb
+cubic inch per minute,in³/min
+cubic inch per second,in³/s
+inch to the fourth power,in⁴
+inch of water,inH₂O
+inch of water (39.2 ºF),"inH₂O (39,2 ºF)"
+inch of water (60 ºF),inH₂O (60 ºF)
+inch of mercury,inHg
+inch of mercury (32 ºF),inHG (32 ºF)
+inch of mercury (60 ºF),inHg (60 ºF)
+joule,J
+joule square metre,J·m²
+joule square metre per kilogram,J·m²/kg
+joule second,J·s
+joule per kilogram kelvin,J/(kg·K)
+joule per mole kelvin,J/(mol·K)
+joule per square centimetre,J/cm²
+joule per day,J/d
+joule per gram,J/g
+joule per hour,J/h
+joule per kelvin,J/K
+joule per kilogram,J/kg
+joule per metre,J/m
+joule per square metre,J/m²
+joule per cubic metre,J/m³
+joule per metre to the fourth power,J/m⁴
+joule per minute,J/min
+joule per mole,J/mol
+joule per second,J/s
+joule per tesla,J/T
+reciprocal joule per cubic metre,J⁻¹/m³
+kelvin,K
+kelvin metre per watt,K·m/W
+kelvin per bar,K/bar
+kelvin per hour,K/h
+kelvin per kelvin,K/K
+kelvin per minute,K/min
+kelvin per pascal,K/Pa
+kelvin per second,K/s
+kelvin per watt,K/W
+reciprocal kelvin or kelvin to the power minus one,K⁻¹
+kiloampere,kA
+kiloampere hour (thousand ampere hour),kA·h
+kiloampere per metre,kA/m
+kiloampere per square metre,kA/m²
+katal,kat
+kilobar,kbar
+kilobaud,kBd
+kilobit,kbit
+kilobit per second,kbit/s
+kilobecquerel,kBq
+kilobecquerel per kilogram,kBq/kg
+kilobyte,kbyte
+kilobyte per second,kbyte/s
+kilocoulomb,kC
+kilocoulomb per square metre,kC/m²
+kilocoulomb per cubic metre,kC/m³
+kilocalorie (mean),kcal
+kilocalorie (international table) per hour metre degree Celsius,kcal/(m·h·°C)
+kilocalorie (international table),kcalIT
+kilocalorie (thermochemical),kcalth
+kilocalorie (thermochemical) per hour,kcalth/h
+kilocalorie (thermochemical) per minute,kcalth/min
+kilocalorie (thermochemical) per second,kcalth/s
+kilocandela,kcd
+kilocurie,kCi
+kiloelectronvolt,keV
+kilofarad,kF
+thousand cubic foot,kft³
+kilogram,kg
+kilogram of substance 90 % dry,kg 90 % sdt
+kilogram of choline chloride,kg C₅ H₁₄ClNO
+kilogram of hydrogen peroxide,kg H₂O₂
+kilogram of potassium oxide,kg K₂O
+kilogram of potassium hydroxide (caustic potash),kg KOH
+kilogram of methylamine,kg met.am.
+kilogram of nitrogen,kg N
+kilogram of sodium hydroxide (caustic soda),kg NaOH
+kilogram of uranium,kg U
+kilogram of tungsten trioxide,kg WO₃
+kilogram centimetre per second,kg·(cm/s)
+kilogram square centimetre,kg·cm²
+kilogram metre,kg·m
+kilogram metre per second,kg·m/s
+kilogram metre per second squared,kg·m/s²
+kilogram metre squared,kg·m²
+kilogram metre squared per second,kg·m²/s
+kilogram square millimetre,kg·mm²
+kilogram per cubic centimetre bar,kg/(cm³·bar)
+kilogram per cubic centimetre kelvin,kg/(cm³·K)
+kilogram per day bar,kg/(d·bar)
+kilogram per day kelvin,kg/(d·K)
+kilogram per hour bar,kg/(h·bar)
+kilogram per hour kelvin,kg/(h·K)
+kilogram per litre bar,kg/(l·bar)
+kilogram per litre kelvin,kg/(l·K)
+kilogram per metre day,kg/(m·d)
+kilogram per metre hour,kg/(m·h)
+kilogram per metre minute,kg/(m·min)
+kilogram per metre second,kg/(m·s)
+kilogram per square metre pascal second,kg/(m²·Pa·s)
+kilogram per square metre second,kg/(m²·s)
+kilogram per cubic metre bar,kg/(m³·bar)
+kilogram per cubic metre kelvin,kg/(m³·K)
+kilogram per minute bar,kg/(min·bar)
+kilogram per minute kelvin,kg/(min·K)
+kilogram per second bar,kg/(s·bar)
+kilogram per second kelvin,kg/(s·K)
+kilogram per bar,kg/bar
+kilogram per square centimetre,kg/cm²
+kilogram per cubic centimetre,kg/cm³
+kilogram per day,kg/d
+kilogram per cubic decimetre,kg/dm³
+kilogram per hour,kg/h
+kilogram per kelvin,kg/K
+kilogram per kilogram,kg/kg
+kilogram per kilometre,kg/km
+kilogram per kilomol,kg/kmol
+kilogram per litre,kg/l or kg/L
+kilogram per metre,kg/m
+kilogram per square metre,kg/m²
+kilogram per cubic metre,kg/m³
+kilogram per minute,kg/min
+kilogram per millimetre,kg/mm
+kilogram per mole,kg/mol
+kilogram drained net weight,kg/net eda
+kilogram per pascal,kg/Pa
+kilogram per second,kg/s
+kilogram-force,kgf
+kilogram-force metre,kgf·m
+kilogram-force metre per square centimetre,kgf·m/cm²
+kilogram-force metre per second,kgf·m/s
+kilogram-force per square centimetre,kgf/cm²
+kilogram-force per square metre,kgf/m²
+kilogram-force per square millimetre,kgf/mm²
+kilogauss,kGs
+kilohenry,kH
+kilohertz,kHz
+kilohertz metre,kHz·m
+kibibit,Kibit
+kibibit per metre,Kibit/m
+kibibit per square metre,Kibit/m²
+kibibit per cubic metre,Kibit/m³
+kibibyte,Kibyte
+kilopound-force,kip
+kilojoule,kJ
+kilojoule per kilogram kelvin,kJ/(kg·K)
+kilojoule per day,kJ/d
+kilojoule per gram,kJ/g
+kilojoule per hour,kJ/h
+kilojoule per kelvin,kJ/K
+kilojoule per kilogram,kJ/kg
+kilojoule per minute,kJ/min
+kilojoule per mole,kJ/mol
+kilojoule per second,kJ/s
+kilolitre,kl
+kilolitre per hour,kl/h
+kilopound per hour,klb/h
+kilopound-force per square inch,klbf/in²
+kilolux,klx
+kilometre,km
+kilometre,km
+kilometre per hour,km/h
+kilometre per second,km/s
+kilometre per second squared,km/s²
+square kilometre,km²
+cubic kilometre,km³
+thousand cubic metre per day,km³/d
+kilomole,kmol
+kilomole per hour,kmol/h
+kilomole per kilogram,kmol/kg
+kilomole per cubic metre,kmol/m³
+kilomole per minute,kmol/min
+kilomole per second,kmol/s
+kilonewton,kN
+knot,kn
+kilonewton metre,kN·m
+kilonewton per metre,kN/m
+kilonewton per square metre,kN/m2
+kilopond,kp
+kilopascal,kPa
+kilopascal square metre per gram,kPa·m²/g
+kilopascal per bar,kPa/bar
+kilopascal per kelvin,kPa/K
+kilopascal per metre,kPa/m
+kilopascal per millimetre,kPa/mm
+kiloroentgen,kR
+kilosecond,ks
+kilosiemens,kS
+kilosiemens per metre,kS/m
+kip per square inch,ksi
+kilotesla,kT
+kilotonne,kt
+kilovolt,kV
+kilovolt - ampere,kV·A
+kilovolt per metre,kV/m
+kilovolt ampere hour,kVAh
+kilovar,kvar
+kilovolt ampere (reactive),kvar
+kilovolt ampere reactive hour,kvar·h
+kilowatt,kW
+kilowatt hour,kW·h
+kilowatt hour per hour,kW·h/h
+kilowatt hour per kelvin,kW·h/K
+kilowatt hour per cubic metre,kW·h/m³
+kilowatt per metre degree Celsius,kW/(m·°C)
+kilowatt per metre kelvin,kW/(m·K)
+kilowatt per square metre kelvin,kW/(m²·K)
+kilowatt year,kW/year
+kiloweber,kWb
+kiloweber per metre,kWb/m
+kiloohm,kΩ
+kiloohm metre,kΩ·m
+litre,l
+litre per day bar,l/(d·bar)
+litre per day kelvin,l/(d·K)
+litre per hour bar,l/(h·bar)
+litre per hour kelvin,l/(h·K)
+litre per minute bar,l/(min·bar)
+litre per minute kelvin,l/(min·K)
+litre per second bar,l/(s·bar)
+litre per second kelvin,l/(s·K)
+litre per bar,l/bar
+litre per day,l/d
+litre per hour,l/h
+litre per kelvin,l/K
+litre per kilogram,l/kg
+litre per litre,l/l
+litre per minute,l/min
+litre per mole,l/mol
+litre per second,l/s
+lambert,Lb
+pound,lb
+pound foot per second,lb·(ft/s)
+pound inch per second,lb·(in/s)
+pound (avoirdupois) square foot,lb·ft²
+pound inch squared,lb·in²
+pound per foot day,lb/(ft·d)
+pound per foot hour,lb/(ft·h)
+pound per foot minute,lb/(ft·min)
+pound per foot second,lb/(ft·s)
+pound (avoirdupois) per minute degree Fahrenheit,lb/(min·°F)
+pound (avoirdupois) per degree Fahrenheit,lb/°F
+pound (avoirdupois) per day,lb/d
+pound per foot,lb/ft
+pound per square foot,lb/ft²
+pound per cubic foot,lb/ft³
+pound (avoirdupois) per gallon (UK),lb/gal (UK)
+pound per gallon (US),lb/gal (US)
+pound per hour,lb/h
+pound per inch of length,lb/in
+pound per square inch absolute,lb/in²
+pound per cubic inch,lb/in³
+pound per thousand square foot,lb/kft²
+pound per pound,lb/lb
+pound (avoirdupois) per minute,lb/min
+pound (avoirdupois) per psi,lb/psi
+pound (avoirdupois) per second,lb/s
+pound per yard,lb/yd
+pound per square yard,lb/yd²
+pound per cubic yard,lb/yd³
+pound-force,lbf
+pound-force foot,lbf·ft
+pound-force foot per ampere,lbf·ft/A
+pound-force foot per inch,lbf·ft/in
+pound-force foot per pound,lbf·ft/lb
+pound-force inch,lbf·in
+pound-force inch per inch,lbf·in/in
+pound-force second per square foot,lbf·s/ft²
+pound-force second per square inch,lbf·s/in²
+pound-force per foot,lbf/ft
+pound-force per square foot,lbf/ft²
+pound-force per inch,lbf/in
+pound-force per square inch,lbf/in²
+pound-force per yard,lbf/yd
+pound mole,lbmol
+pound mole per minute,lbmol/h
+pound mole per pound,lbmol/lb
+pound mole per second,lbmol/s
+liquid pint (US),liq pt (US)
+liquid quart (US),liq qt (US)
+lumen,lm
+lumen hour,lm·h
+lumen second,lm·s
+lumen per square foot,lm/ft²
+lumen per square metre,lm/m²
+lumen per watt,lm/W
+lux,lx
+lux hour,lx·h
+lux second,lx·s
+langley,Ly
+light year,ly
+metre,m
+Metre Day,m·day
+metre kelvin,m·K
+Metre Month,m·mo
+Metre Week,m·wk
+metre per degree Celcius metre,m/(°C·m)
+metre per volt second,m/(V·s)
+metre per bar,m/bar
+metre per hour,m/h
+metre per kelvin,m/K
+metre per minute,m/min
+metre per pascal,m/Pa
+metre per radiant,m/rad
+metre per second,m/s
+metre per second squared,m/s²
+reciprocal metre,m⁻¹
+reciprocal square metre,m⁻²
+reciprocal metre squared reciprocal second,m⁻²/s
+reciprocal cubic metre,m⁻³
+reciprocal cubic metre per second,m⁻³/s
+square metre,m²
+Square Metre Week,m²· wk
+Square Metre Day,m²·d
+square metre hour degree Celsius per kilocalorie (international table),m²·h·°C/kcal
+square metre kelvin per watt,m²·K/W
+Square Metre Month,m²·mo
+square metre per second bar,m²/(s·bar)
+square metre per second kelvin,m²/(s·K)
+square metre per steradian joule,m²/(sr·J)
+square metre per volt second,m²/(V·s)
+square metre per joule,m²/J
+square metre per kilogram,m²/kg
+square metre per litre,m²/l
+square metre per cubic metre,m2/m3
+square metre per mole,m²/mol
+square metre per newton,m²/N
+square metre per second,m²/s
+square metre per steradian,m²/sr
+cubic metre,m³
+Cubic Metre Day,m³·d
+Cubic Metre Month,m³·mo
+Cubic Metre Week,m³·wk
+cubic metre per day bar,m³/(d·bar)
+cubic metre per day kelvin,m³/(d·K)
+cubic metre per hour bar,m³/(h·bar)
+cubic metre per hour kelvin,m³/(h·K)
+cubic metre per minute bar,m³/(min·bar)
+cubic metre per minute kelvin,m³/(min·K)
+cubic metre per second bar,m³/(s·bar)
+cubic metre per second kelvin,m³/(s·K)
+cubic metre per bar,m³/bar
+cubic metre per coulomb,m³/C
+cubic metre per day,m³/d
+cubic metre per hour,m³/h
+cubic metre per kelvin,m³/K
+cubic metre per kilogram,m³/kg
+cubic metre per cubic metre,m³/m³
+cubic metre per minute,m³/min
+cubic metre per mole,m³/mol
+cubic metre per pascal,m³/Pa
+cubic metre per second,m³/s
+metre to the fourth power,m⁴
+megaampere,MA
+milliampere,mA
+milliampere hour,mA·h
+milliampere per pound-force per square inch,mA/(lbf/in²)
+milliampere per litre minute,mA/(l·min)
+milliampere per bar,mA/bar
+milliampere per inch,mA/in
+megaampere per square metre,MA/m²
+milliampere per millimetre,mA/mm
+millibar,mbar
+millibar litre per second,mbar·l/s
+millibar cubic metre per second,mbar·m³/s
+millibar per bar,mbar/bar
+millibar per kelvin,mbar/K
+megabaud,MBd
+megabit,Mbit
+megabit per second,Mbit/s
+megabecquerel,MBq
+megabecquerel per kilogram,MBq/kg
+million Btu per 1000 cubic foot,MBTU/kft³
+megabyte,Mbyte
+megabyte per second,Mbyte/s
+megacoulomb,MC
+millicoulomb,mC
+millicoulomb per kilogram,mC/kg
+megacoulomb per square metre,MC/m²
+millicoulomb per square metre,mC/m²
+megacoulomb per cubic metre,MC/m³
+millicoulomb per cubic metre,mC/m³
+millicandela,mcd
+millicurie,mCi
+metric horse power,metric hp
+megaelectronvolt,MeV
+millifarad,mF
+million cubic foot,Mft³
+megagram,Mg
+milligram,mg
+milligram per day bar,mg/(d·bar)
+milligram per day kelvin,mg/(d·K)
+milligram per hour bar,mg/(h·bar)
+milligram per hour kelvin,mg/(h·K)
+milligram per minute bar,mg/(min·bar)
+milligram per minute kelvin,mg/(min·K)
+milligram per second bar,mg/(s·bar)
+milligram per second kelvin,mg/(s·K)
+milligram per bar,mg/bar
+milligram per square centimetre,mg/cm²
+milligram per day,mg/d
+milligram per gram,mg/g
+megagram per hour,Mg/h
+milligram per hour,mg/h
+milligram per square inch,mg/in²
+milligram per kelvin,mg/K
+milligram per kilogram,mg/kg
+milligram per litre,mg/l
+milligram per metre,mg/m
+milligram per square metre,mg/m²
+megagram per cubic metre,Mg/m³
+milligram per cubic metre,mg/m³
+milligram per minute,mg/min
+milligram per second,mg/s
+milligal,mGal
+milligray,mGy
+milligray per hour,mGy/h
+milligray per minute,mGy/min
+milligray per second,mGy/s
+millihenry,mH
+millihenry per kiloohm,mH/kΩ
+millihenry per ohm,mH/Ω
+conventional metre of water,mH₂O
+megahertz,MHz
+millihertz,mHz 
+megahertz kilometre,MHz·km
+megahertz metre,MHz·m
+mile (based on U.S. survey foot),mi (US survey)
+mile per minute,mi/min
+mile per second,mi/s
+mile (statute mile) per second squared,mi/s²
+square mile (statute mile),mi²
+square mile (based on U.S. survey foot),mi² (US survey)
+cubic mile (UK statute),mi³
+mebibit,Mibit
+mebibit per metre,Mibit/m
+mebibit per square metre,Mibit/m²
+mebibit per cubic metre,Mibit/m³
+mebibyte,Mibyte
+mil,mil
+milli-inch,mil
+mile (statute mile),mile
+mile per hour (statute mile),mile/h
+minute [unit of time],min
+reciprocal minute,min⁻¹
+megajoule,MJ
+millijoule,mJ
+megajoule per kilogram,MJ/kg
+Mega Joule per Normalised cubic Metre,MJ/m³
+megajoule per cubic metre,MJ/m³
+megajoule per second,MJ/s
+megalitre,Ml
+millilitre,ml
+millilitre per square centimetre second,ml/(cm²·s)
+millilitre per day bar,ml/(d·bar)
+millilitre per day kelvin,ml/(d·K)
+millilitre per hour bar,ml/(h·bar)
+millilitre per hour kelvin,ml/(h·K)
+millilitre per minute bar,ml/(min·bar)
+millilitre per minute kelvin,ml/(min·K)
+millilitre per second bar,ml/(s·bar)
+millilitre per second kelvin,ml/(s·K)
+millilitre per bar,ml/bar
+millilitre per day,ml/d
+millilitre per hour,ml/h
+millilitre per kelvin,ml/K
+millilitre per kilogram,ml/kg
+millilitre per litre,ml/l
+millilitre per cubic metre,ml/m³
+millilitre per minute,ml/min
+millilitre per second,ml/s
+megametre,Mm
+millimetre,mm
+conventional millimetre of water,mm H₂O
+conventional millimetre of mercury,mm Hg
+millimetre per degree Celcius metre,mm/(°C·m)
+millimetre per bar,mm/bar
+millimetre per hour,mm/h
+millimetre per kelvin,mm/K
+millimetre per minute,mm/min
+millimetre per second,mm/s
+millimetre per second squared,mm/s²
+millimetre per year,mm/y
+square millimetre,mm²
+millimetre squared per second,mm²/s
+cubic millimetre,mm³
+million cubic metre,Mm³
+cubic millimetre per cubic metre,mm³/m³
+millimetre to the fourth power,mm⁴
+millimole,mmol
+millimole per gram,mmol/g
+millimole per kilogram,mmol/kg
+millimole per litre,mmol/l
+meganewton,MN
+millinewton,mN
+meganewton metre,MN·m
+millinewton metre,mN·m
+millinewton per metre,mN/m
+month,mo
+30-day month,mo (30 days)
+mole,mol
+mole per cubic decimetre,mol/dm³
+mole per hour,mol/h
+mole per kilogram,mol/kg
+mole per litre,mol/l
+mole per cubic metre,mol/m³
+mole per minute,mol/min
+mole per second,mol/s
+reciprocal mole,mol⁻¹
+megapascal,MPa
+millipascal,mPa
+megapascal litre per second,MPa·l/s
+megapascal cubic metre per second,MPa·m³/s
+millipascal second,mPa·s
+millipascal second per bar,mPa·s/bar
+millipascal second per kelvin,mPa·s/K
+megapascal per bar,MPa/bar
+megapascal per kelvin,MPa/K
+millipascal per metre,mPa/m
+milliroentgen,mR
+milliradian,mrad
+milliroentgen aequivalent men,mrem
+millisecond,ms
+millisiemens,mS
+millisiemens per centimetre,mS/cm
+megasiemens per metre,MS/m
+millisievert,mSv
+millisievert per hour,mSv/h
+millisievert per minute,mSv/min
+millisievert per second,mSv/s
+millitesla,mT
+megavolt,MV
+millivolt,mV
+megavolt - ampere,MV·A
+millivolt - ampere,mV·A
+millivolt per kelvin,mV/K
+megavolt per metre,MV/m
+millivolt per metre,mV/m
+millivolt per minute,mV/min
+megavar,Mvar
+megavolt ampere reactive hour,Mvar·h
+megawatt,MW
+milliwatt,mW
+module width,MW
+megawatt hour (1000 kW.h),MW·h
+megawatt hour per hour,MW·h/h
+megawatt per hertz,MW/Hz
+milliwatt per square metre,mW/m²
+megawatts per minute,MW/min
+milliweber,mWb
+maxwell,Mx
+megaohm,MΩ
+milliohm,mΩ
+megaohm kilometre,MΩ·km
+megaohm metre,MΩ·m
+milliohm metre,mΩ·m
+megaohm per kilometre,MΩ/km
+megaohm per metre,MΩ/m
+milliohm per metre,mΩ/m
+newton,N
+nautical mile,n mile
+newton centimetre,N·cm
+newton metre,N·m
+newton metre second,N·m·s
+"newton metre watt to the power minus 0,5",N·m·W⁻⁰‧⁵
+newton metre per ampere,N·m/A
+newton metre per kilogram,N·m/kg
+newton metre per metre,N·m/m²
+newton metre per square metre,N·m/m²
+newton metre per radian,N·m/rad
+newton square metre per ampere,N·m²/A
+newton metre squared per kilogram squared,N·m²/kg²
+newton second,N·s
+newton second per metre,N·s/m
+newton per ampere,N/A
+newton per centimetre,N/cm
+newton per square centimetre,N/cm²
+newton per metre,N/m
+newton per square metre,N/m²
+newton per millimetre,N/mm
+newton per square millimetre,N/mm²
+nanoampere,nA
+natural unit of information,nat
+natural unit of information per second,nat/s
+nanocoulomb,nC
+nanofarad,nF
+nanofarad per metre,nF/m
+nanogram per kilogram,ng/kg
+nanogray per hour,nGy/h
+nanogray per minute,nGy/min
+nanogray per second,nGy/s
+nanohenry,nH
+nanohenry per metre,nH/m
+nanolitre,nl
+nanometre,nm
+newton metre per degree,Nm/°
+nanomole,nmol
+neper,Np
+neper per second,Np/s
+nanosecond,ns
+nanosiemens per centimetre,nS/cm
+nanosiemens per metre,nS/m
+nanosievert per hour,nSv/h
+nanosievert per minute,nSv/min
+nanosievert per second,nSv/s
+nanotesla,nT
+Nephelometric turbidity unit,NTU
+nanowatt,nW
+nanoohm,nΩ
+nanoohm metre,nΩ·m
+octet,o
+oscillations per minute,o/min
+octet per second,o/s
+oersted,Oe
+degree Fahrenheit hour square foot per British thermal unit (international table) inch,ºF·h·ft²/(BtuIT·in)
+degree Fahrenheit hour square foot per British thermal unit (thermochemical) inch,ºF·h·ft²/(Btuth·in)
+degree Fahrenheit hour per British thermal unit (international table),ºF/(BtuIT/h)
+degree Fahrenheit second per British thermal unit (international table),ºF/(BtuIT/s)
+degree Fahrenheit hour per British thermal unit (thermochemical),ºF/(Btuth/h)
+degree Fahrenheit second per British thermal unit (thermochemical),ºF/(Btuth/s)
+ounce (avoirdupois),oz
+ounce foot,oz·ft
+ounce inch,oz·in
+"ounce per square foot per 0,01inch",oz/(ft²/cin)
+ounce (avoirdupois) per day,oz/d
+ounce per square foot,oz/ft²
+ounce (avoirdupois) per gallon (UK),oz/gal (UK)
+ounce (avoirdupois) per gallon (US),oz/gal (US)
+ounce (avoirdupois) per hour,oz/h
+ounce (avoirdupois) per square inch,oz/in²
+ounce (avoirdupois) per cubic inch,oz/in³
+ounce (avoirdupois) per minute,oz/min
+ounce (avoirdupois) per second,oz/s
+ounce per square yard,oz/yd²
+ounce (avoirdupois) per cubic yard,oz/yd³
+ounce (avoirdupois)-force,ozf
+ounce (avoirdupois)-force inch,ozf·in
+poise,P
+pond,p
+poise per bar,P/bar
+poise per kelvin,P/K
+poise per pascal,P/Pa
+pascal,Pa
+picoampere,pA
+pascal second per kelvin,Pa.s/K
+pascal second per metre,Pa· s/m
+pascal litre per second,Pa·l/s
+pascal cubic metre per second,Pa·m³/s
+pascal second,Pa·s
+pascal second per bar,Pa·s/bar
+pascal second per litre,Pa·s/l
+pascal second per cubic metre,Pa·s/m³
+pascal square metre per kilogram,Pa/(kg/m²)
+pascal per bar,Pa/bar
+pascal per kelvin,Pa/K
+pascal per metre,Pa/m
+reciprocal pascal or pascal to the power minus one,Pa⁻¹
+pascal squared second,Pa²·s
+pascal to the power sum of stoichiometric numbers,PaΣνB
+petabit,Pbit
+petabit per second,Pbit/s
+petabyte,Pbyte
+parsec,pc
+picocoulomb,pC
+poundal,pdl
+poundal per square foot,pdl/ft²
+poundal per inch,pdl/in
+poundal per square inch,pdl/in²
+poundal foot,pdl·ft
+poundal inch,pdl·in
+perm (0 ºC),perm (0 ºC)
+perm (23 ºC),perm (23 ºC)
+picofarad,pF
+picofarad per metre,pF/m
+pfund,pfd
+pH (potential of Hydrogen),pH
+phot,ph
+picohenry,pH
+pebibit per metre,Pibit/m
+pebibit per square metre,Pibit/m²
+pebibit per cubic metre,Pibit/m³
+pebibyte,Pibyte
+Piece Day,piece·d
+Piece Week,piece·k
+Piece Month,piece·mo
+petajoule,PJ
+bulk pack,pk
+peck (UK),pk (UK)
+peck (UK) per day,pk (UK)/d
+peck (UK) per hour,pk (UK)/h
+peck (UK) per minute,pk (UK)/min
+peck (UK) per second,pk (UK)/s
+peck (US dry) per day,pk (US dry)/d
+peck (US dry) per hour,pk (US dry)/h
+peck (US dry) per minute,pk (US dry)/min
+peck (US dry) per second,pk (US dry)/s
+peck,pk (US)
+picolitre,pl
+picometre,pm
+picopascal per kilometre,pPa/km
+part per billion (US),ppb
+part per hundred thousand,ppht
+page per inch,ppi
+part per million,ppm
+Pferdestaerke,PS
+picosecond,ps
+picosiemens,pS
+picosiemens per metre,pS/m
+psi cubic inch per second,psi·in³/s
+psi litre per second,psi·l/s
+psi cubic metre per second,psi·m³/s
+psi cubic yard per second,psi·yd³/s
+pound-force per square inch degree Fahrenheit,psi/°F
+psi per inch,psi/in
+psi per psi,psi/psi
+pint (UK),pt (UK)
+pint (UK) per day,pt (UK)/d
+pint (UK) per hour,pt (UK)/h
+pint (UK) per minute,pt (UK)/min
+pint (UK) per second,pt (UK)/s
+pint (US dry),pt (US dry)
+pint (US liquid) per day,pt (US liq.)/d
+pint (US liquid) per hour,pt (US liq.)/h
+pint (US liquid) per minute,pt (US liq.)/min
+pint (US liquid) per second,pt (US liq.)/s
+pint (US),pt (US)
+portion,PTN
+picovolt,pV
+picowatt,pW
+picowatt per square metre,pW/m²
+quire,qr
+quarter (UK),Qr (UK)
+quart (UK liquid) per day,qt (UK liq.)/d
+quart (UK liquid) per hour,qt (UK liq.)/h
+quart (UK liquid) per minute,qt (UK liq.)/min
+quart (UK liquid) per second,qt (UK liq.)/s
+quart (UK),qt (UK)
+quart (US dry),qt (US dry)
+quart (US liquid) per day,qt (US liq.)/d
+quart (US liquid) per hour,qt (US liq.)/h
+quart (US liquid) per minute,qt (US liq.)/min
+quart (US liquid) per second,qt (US liq.)/s
+quart (US),qt (US)
+quad (1015 BtuIT),quad
+roentgen,R
+revolution per minute,r/min
+revolutions per minute,r/min
+revolutions per second,r/s
+roentgen per second,R/s
+rad,rad
+radian,rad
+radian square metre per kilogram,rad·m²/kg
+radian square metre per mole,rad·m²/mol
+radian per metre,rad/m
+radian per second,rad/s
+radian per second squared,rad/s²
+rod [unit of distance],rd (US)
+square rod,rd²
+rem,rem
+rem per second,rem/s
+revolution,rev
+rhe,rhe
+"ton, register",RT
+second [unit of time],s
+siemens,S
+siemens square metre per mole,S·m²/mol
+second per cubic metre radian,s/(rad·m³)
+siemens per centimetre,S/cm
+second per kilogramm,s/kg
+siemens per metre,S/m
+second per cubic metre,s/m³
+reciprocal second,s⁻¹
+reciprocal second per steradian metre squared,s⁻¹/(sr·m²)
+reciprocal second per metre squared,s⁻¹/m²
+reciprocal second per cubic metre,s⁻¹/m³
+reciprocal second per steradian,s⁻¹/sr
+stilb,sb
+shannon,Sh
+shannon per second,Sh/s
+shake,shake
+slug,slug
+slug per foot second,slug/(ft·s)
+slug per day,slug/d
+slug per cubic foot,slug/ft³
+slug per hour,slug/h
+slug per minute,slug/min
+slug per second,slug/s
+steradian,sr
+stere,st
+stokes,St
+stone (UK),st
+stokes per bar,St/bar
+stokes per kelvin,St/K
+stokes per pascal,St/Pa
+standard,std
+standard cubic foot,std
+sievert,Sv
+sievert per hour,Sv/h
+sievert per minute,Sv/min
+sievert per second,Sv/s
+Name,Symbol
+tesla,T
+tonne (metric ton),t
+tonne kilometre,t·km
+tonne per bar,t/bar
+tonne per day,t/d
+tonne per hour,t/h
+tonne per kelvin,t/K
+tonne per cubic metre,t/m³
+tonne per minute,t/min
+tonne per month,t/mo
+tonne per second,t/s
+tonne per year,t/y
+tablespoon (US),tablespoon (US)
+total acid number,TAN
+terabit,Tbit
+terabit per second,Tbit/s
+terabyte,Tbyte
+teaspoon (US),teaspoon (US)
+tex,tex (g/km)
+therm (EC),thm (EC)
+therm (U.S.),thm (US)
+terahertz,THz
+tebibit per metre,Tibit/m
+tebibit per square metre,Tibit/m²
+tebibit per cubic metre,Tibit/m³
+tebibyte,Tibyte
+terajoule,TJ
+ton (UK) or long ton (US),ton (UK)
+ton long per day,ton (UK)/d
+ton (US) or short ton (UK/US),ton (US)
+ton (US) per hour,ton (US) /h
+ton short per hour degree Fahrenheit,ton (US)/(h·°F)
+ton short per degree Fahrenheit,ton (US)/°F
+ton short per day,ton (US)/d
+ton short per psi,ton (US)/psi
+ton (UK long) per cubic yard,ton.l/yd³ (UK)
+ton (US short) per cubic yard,ton.s/yd³ (US)
+ton-force (US short),ton.sh-force
+torr,Torr
+torr per metre,Torr/m
+teeth per inch,TPI
+troy ounce or apothecary ounce,tr oz
+terawatt,TW
+terawatt hour,TW·h
+teraohm,TΩ
+unified atomic mass unit,u
+rack unit,U or RU
+astronomical unit,ua
+unit pole,unit pole
+volt,V
+volt AC,V
+volt DC,V
+volt - ampere,V·A
+volt - ampere per kilogram,V·A / kg
+volt second per metre,V·s/m
+volt square inch per pound-force,V/(lbf/in²)
+volt per litre minute,V/(l·min)
+volt per bar,V/bar
+volt per centimetre,V/cm
+volt per inch,V/in
+volt per kelvin,V/K
+volt per metre,V/m
+volt per millimetre,V/mm
+volt per pascal,V/Pa
+volt per second,V/s
+volt per microsecond,V/µs
+volt squared per kelvin squared,V²/K²
+var,var
+watt,W
+watt hour,W·h
+watt square metre,W·m²
+watt second,W·s
+watt per metre degree Celsius,W/(m·°C)
+watt per metre kelvin,W/(m·K)
+watt per square metre kelvin,W/(m²·K)
+watt per square metre kelvin to the fourth power,W/(m²·K⁴)
+watt per steradian square metre,W/(sr·m²)
+watt per square centimetre,W/cm²
+watt per square inch,W/in²
+watt per kelvin,W/K
+watt per kilogram,W/kg
+watt per metre,W/m
+watt per square metre,W/m²
+watt per cubic metre,W/m³
+watt per steradian,W/sr
+weber,Wb
+weber metre,Wb·m
+weber per metre,Wb/m
+weber per millimetre,Wb/mm
+week,wk
+year,y
+actual/360,y (360 days)
+common year,y (365 days)
+sidereal year,y (sidereal)
+tropical year,y (tropical)
+yard,yd
+yard per degree Fahrenheit,yd/°F
+yard per hour,yd/h
+yard per minute,yd/min
+yard per psi,yd/psi
+yard per second,yd/s
+yard per second squared,yd/s²
+square yard,yd²
+cubic yard,yd³
+cubic yard per degree Fahrenheit,yd³/°F
+cubic yard per day,yd³/d
+cubic yard per hour,yd³/h
+cubic yard per minute,yd³/min
+cubic yard per psi,yd³/psi
+cubic yard per second,yd³/s
+gamma,γ
+microampere,µA
+microbar,µbar
+microbecquerel,µBq
+microcoulomb,µC
+microcoulomb per square metre,µC/m²
+microcoulomb per cubic metre,µC/m³
+microcurie,µCi
+microfarad,µF
+microfarad per kilometre,µF/km
+microfarad per metre,µF/m
+microgram,µg
+microgram per hectogram,µg/hg
+microgram per kilogram,µg/kg
+microgram per litre,µg/l
+microgram per cubic metre,µg/m³
+microgray per hour,µGy/h
+microgray per minute,µGy/min
+microgray per second,µGy/s
+microhenry,µH
+microhenry per kiloohm,µH/kΩ
+microhenry per metre,µH/m
+microhenry per ohm,µH/Ω
+micro-inch,µin
+microlitre,µl
+microlitre per litre,µl/l
+micrometre (micron),µm
+micrometre per kelvin,µm/K
+square micrometre (square micron),µm²
+micromole,µmol
+micronewton,µN
+micronewton metre,µN·m
+micropoise,µP
+micropascal,µPa
+microradian,µrad
+microsecond,µs
+microsiemens,µS
+microsiemens per centimetre,µS/cm
+microsiemens per metre,µS/m
+microsievert per hour,µSv/h
+microsievert per minute,µSv/min
+microsievert per second,µSv/s
+microtesla,µT
+microvolt,µV
+microvolt per metre,µV/m
+microwatt,µW
+microwatt per square metre,µW/m²
+microohm,µΩ
+microohm metre,µΩ·m
+ohm,Ω
+ohm centimetre,Ω·cm
+ohm circular-mil per foot,Ω·cmil/ft
+ohm kilometre,Ω·km
+ohm metre,Ω·m
+ohm per kilometre,Ω/km
+ohm per metre,Ω/m
+ohm per mile (statute mile),Ω/mi

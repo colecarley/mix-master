@@ -266,8 +266,15 @@ def get_proportion(mix_id, proportion_id, db: Session = Depends(database.get_db)
 
 @app.get("/units")
 def get_units(db: Session = Depends(database.get_db)):
-    units = list(db.query(Unit.Unit).all())
+    units = list(db.query(Unit.Unit).order_by(Unit.Unit.symbol).all())
     return units
+
+@app.get("/units/{unit_id}")
+def get_unit(unit_id, db: Session = Depends(database.get_db)):
+    unit = db.query(Unit.Unit).filter(Unit.Unit.id == unit_id).first()
+    if not unit:
+        raise HTTPException(status_code=404, detail="Unit not found")
+    return unit
 
 class TestResultCreate(BaseModel):
     mix_id: int

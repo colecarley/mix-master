@@ -9,3 +9,7 @@ interface Unit {
 export async function getAllUnits(): Promise<Unit[]> {
     return await (await get('/units')).json() as Unit[];
 }
+
+export async function getUnit(id: number): Promise<Unit> {
+    return await (await get(`/units/${id}`)).json() as Unit;
+}

@@ -1,12 +1,12 @@
 <script lang="ts">
-    import { onMount } from "svelte";
-    import TestResultForm from "../../../components/test-result-form.svelte";
-    import TestResultEntityInstance from "$lib/entities/test-results";
     import { page } from "$app/stores";
     import type { TestResult } from "$lib/entities/test-results";
+    import TestResultEntityInstance from "$lib/entities/test-results";
+    import { onMount } from "svelte";
     import Center from "../../../components/center.svelte";
-    import Squeeze from "../../../components/squeeze.svelte";
     import Header from "../../../components/header.svelte";
+    import Squeeze from "../../../components/squeeze.svelte";
+    import TestResultForm from "../../../components/test-result-form.svelte";
 
     let testResult: TestResult | null = $state(null);
     onMount(() => {

@@ -1,12 +1,10 @@
 <script>
-    import { goto } from "$app/navigation";
     import { post } from "$lib/helpers";
-    import { LocalStorage } from "$lib/localStorage";
+    import SessionInstance from "$lib/session";
     import { Button, Input, Label } from "flowbite-svelte";
     import Center from "../../components/center.svelte";
     import Header from "../../components/header.svelte";
     import Squeeze from "../../components/squeeze.svelte";
-    import SessionInstance from "$lib/session";
 
     let form = {
         username: "",

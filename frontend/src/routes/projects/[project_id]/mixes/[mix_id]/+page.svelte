@@ -4,16 +4,14 @@
     import MaterialEntityInstance, {
         type Material,
     } from "$lib/entities/materials";
+    import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
     import ProportionEntityInstance, {
         type Proportion,
     } from "$lib/entities/proportions";
     import TestResultEntityInstance, {
         type TestResult,
     } from "$lib/entities/test-results";
-    import { onMount } from "svelte";
-    import Center from "../../../../../components/center.svelte";
-    import Header from "../../../../../components/header.svelte";
-    import Squeeze from "../../../../../components/squeeze.svelte";
+    import { formatDate } from "$lib/helpers";
     import { LocalStorage } from "$lib/localStorage";
     import {
         Button,
@@ -31,9 +29,11 @@
         PlusOutline,
         TrashBinOutline,
     } from "flowbite-svelte-icons";
-    import { formatDate } from "$lib/helpers";
-    import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
+    import { onMount } from "svelte";
+    import Center from "../../../../../components/center.svelte";
+    import Header from "../../../../../components/header.svelte";
     import MmCard from "../../../../../components/mm-card.svelte";
+    import Squeeze from "../../../../../components/squeeze.svelte";
 
     let materialsWithProportions: (Material & { proportion: Proportion })[] =
         $state([]);

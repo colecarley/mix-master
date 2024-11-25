@@ -2,10 +2,10 @@
     import { page } from "$app/stores";
     import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
     import { onMount } from "svelte";
-    import MixForm from "../../../components/mix-form.svelte";
     import Center from "../../../components/center.svelte";
-    import Squeeze from "../../../components/squeeze.svelte";
     import Header from "../../../components/header.svelte";
+    import MixForm from "../../../components/mix-form.svelte";
+    import Squeeze from "../../../components/squeeze.svelte";
 
     let mix: Mix | null = $state(null);
     onMount(() => {

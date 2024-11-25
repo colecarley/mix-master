@@ -1,14 +1,14 @@
 <script lang="ts">
-    import { onDestroy, onMount } from "svelte";
-    import MaterialForm from "../../../../components/material-form.svelte";
     import { page } from "$app/stores";
     import type { Material } from "$lib/entities/materials";
+    import MaterialEntityInstance from "$lib/entities/materials";
     import type { Proportion } from "$lib/entities/proportions";
     import ProportionEntityInstance from "$lib/entities/proportions";
-    import MaterialEntityInstance from "$lib/entities/materials";
+    import { onMount } from "svelte";
     import Center from "../../../../components/center.svelte";
-    import Squeeze from "../../../../components/squeeze.svelte";
     import Header from "../../../../components/header.svelte";
+    import MaterialForm from "../../../../components/material-form.svelte";
+    import Squeeze from "../../../../components/squeeze.svelte";
 
     let material: Material | null = null;
     let proportion: Proportion | null = null;

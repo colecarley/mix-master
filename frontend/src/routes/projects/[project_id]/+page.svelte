@@ -12,11 +12,7 @@
     import { formatDate } from "$lib/helpers";
     import { LocalStorage } from "$lib/localStorage";
     import { Button, Listgroup, TabItem, Tabs } from "flowbite-svelte";
-    import {
-        EditOutline,
-        PlusOutline,
-        TrashBinOutline,
-    } from "flowbite-svelte-icons";
+    import { PlusOutline, TrashBinOutline } from "flowbite-svelte-icons";
     import { onMount } from "svelte";
     import Center from "../../../components/center.svelte";
     import MmCard from "../../../components/mm-card.svelte";

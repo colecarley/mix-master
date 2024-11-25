@@ -1,10 +1,10 @@
 <script>
-    import { Button, Card } from "flowbite-svelte";
-    import Header from "../components/header.svelte";
-    import Center from "../components/center.svelte";
-    import Squeeze from "../components/squeeze.svelte";
-    import MmCard from "../components/mm-card.svelte";
     import { goto } from "$app/navigation";
+    import { Button } from "flowbite-svelte";
+    import Center from "../components/center.svelte";
+    import Header from "../components/header.svelte";
+    import MmCard from "../components/mm-card.svelte";
+    import Squeeze from "../components/squeeze.svelte";
 </script>
 
 <Header showLinks={false}></Header>

@@ -1,12 +1,12 @@
 <script lang="ts">
     import { page } from "$app/stores";
-    import { onMount } from "svelte";
-    import ProjectForm from "../../../components/project-form.svelte";
     import type { Project } from "$lib/entities/projects";
     import ProjectEntityInstance from "$lib/entities/projects";
-    import Squeeze from "../../../components/squeeze.svelte";
+    import { onMount } from "svelte";
     import Center from "../../../components/center.svelte";
     import Header from "../../../components/header.svelte";
+    import ProjectForm from "../../../components/project-form.svelte";
+    import Squeeze from "../../../components/squeeze.svelte";
 
     let project: Project | null = $state(null);
     onMount(() => {

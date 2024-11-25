@@ -1,4 +1,4 @@
-<header class="w-full flex p-10 bg-orange-800 items-center text-slate-200">
+<header class="w-full flex p-10 bg-orange-600 items-center text-slate-100">
     <h1>MixMaster</h1>
     <div class="w-full flex justify-end">
         <nav class="flex justify-between w-1/3">

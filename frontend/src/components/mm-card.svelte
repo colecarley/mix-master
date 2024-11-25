@@ -17,9 +17,15 @@
     </div>
 
     <p>{description}</p>
-    <div class="flex w-full">
-        <Button onclick={onDelete}>
-            <TrashBinOutline class="h-6 w-6"></TrashBinOutline>
+    <div class="flex w-full justify-end">
+        <Button
+            onclick={onDelete}
+            class="bg-orange-600 text-slate-100 p-2 px-4"
+        >
+            <div class="flex gap-2 justify-end">
+                <span class="font-bold">Delete </span>
+                <TrashBinOutline class="h-6 w-6"></TrashBinOutline>
+            </div>
         </Button>
     </div>
 </Card>

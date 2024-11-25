@@ -5,7 +5,7 @@
     let { showLinks = true } = $props();
 </script>
 
-<header class="w-full flex p-10 bg-orange-600 items-center text-white mb-12">
+<header class="w-full flex p-10 bg-primary items-center text-white mb-12">
     <a href="/">
         <h1>MixMaster</h1>
     </a>

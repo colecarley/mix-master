@@ -132,7 +132,7 @@
                     </div>
                     <div class="flex flex-col">
                         <Table class="table-fixed shadow-xl">
-                            <TableHead class="bg-orange-600 text-white">
+                            <TableHead class="bg-primary text-white">
                                 <TableHeadCell class="p-2">NAME</TableHeadCell>
                                 <TableHeadCell>AMOUNT</TableHeadCell>
                                 <TableHeadCell>COST PER UNIT</TableHeadCell>
@@ -216,7 +216,7 @@
                         </button>
                     </div>
                     <Table class="table-fixed shadow-xl ">
-                        <TableHead class="bg-orange-600 text-white">
+                        <TableHead class="bg-primary text-white">
                             <TableHeadCell class="p-2"
                                 >PROPERTY MEASURED</TableHeadCell
                             >

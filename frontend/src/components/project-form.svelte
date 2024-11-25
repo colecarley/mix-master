@@ -98,7 +98,7 @@
         </div>
     </div>
     <div class="flex w-fulll justify-end">
-        <Button class="bg-orange-600 p-3 px-5 flex shadow-xl" onclick={submit}
+        <Button class="bg-primary p-3 px-5 flex shadow-xl" onclick={submit}
             >{projectId ? "Update" : "Create"}</Button
         >
     </div>

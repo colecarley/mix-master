@@ -28,7 +28,7 @@
         <div class="flex w-full justify-end">
             <Button
                 onclick={onDelete}
-                class="bg-orange-600 text-slate-100 p-2 px-4"
+                class="bg-primary text-slate-100 p-2 px-4"
             >
                 <div class="flex gap-2 justify-end">
                     <span class="font-bold">Delete </span>

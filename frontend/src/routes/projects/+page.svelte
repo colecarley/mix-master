@@ -11,7 +11,6 @@
     import Header from "../../components/header.svelte";
     import MmCard from "../../components/mm-card.svelte";
     import Squeeze from "../../components/squeeze.svelte";
-    import { Button, Modal } from "flowbite-svelte";
 
     let projects: Project[] = [];
     onMount(async () => {
@@ -38,8 +37,6 @@
         ProjectEntityInstance.delete(Number(project.id));
         projects = projects.filter((p) => p.id !== project.id);
     }
-
-    let openModa = false;
 </script>
 
 <Header></Header>
@@ -52,22 +49,12 @@
                 <PlusOutline class="h-10 w-10"></PlusOutline>
             </button>
         </div>
-        <div class="flex gap-4">
+        <div class="grid grid-cols-2 gap-6">
             {#each projects as project}
                 <MmCard
                     title={project.name}
                     description={project.description}
                     href="/projects/{project.id}"
-                    onDelete={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        deleteProject(project);
-                    }}
-                    onUpdate={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        goto(`/update-project/${project.id}`);
-                    }}
                 ></MmCard>
             {/each}
         </div>

@@ -12,7 +12,11 @@
     import { formatDate } from "$lib/helpers";
     import { LocalStorage } from "$lib/localStorage";
     import { Button, Listgroup, TabItem, Tabs } from "flowbite-svelte";
-    import { EditOutline, PlusOutline } from "flowbite-svelte-icons";
+    import {
+        EditOutline,
+        PlusOutline,
+        TrashBinOutline,
+    } from "flowbite-svelte-icons";
     import { onMount } from "svelte";
     import Center from "../../../components/center.svelte";
     import MmCard from "../../../components/mm-card.svelte";
@@ -92,17 +96,32 @@
                             title={project.name}
                             subtitle={formatDate(project.created_at)}
                             description={project.description}
+                            onUpdate={() => {
+                                goto(`/update-project/${project.id}`);
+                            }}
                         ></MmCard>
                     {/if}
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                     {#each stats as stat}
                         <MmCard title={stat.name} description={stat.value}
                         ></MmCard>
                     {/each}
-                </div></TabItem
-            >
+                </div>
+                <div class="flex justify-end">
+                    <Button
+                        class="bg-primary flex gap-2"
+                        onclick={() => {
+                            ProjectEntityInstance.delete(Number(projectId));
+                            goto("/projects");
+                        }}
+                    >
+                        <TrashBinOutline class="h-4 w-4"></TrashBinOutline>
+                        Delete
+                    </Button>
+                </div>
+            </TabItem>
             <TabItem
                 title="Mixes"
                 activeClasses="p-4 text-white rounded-xl bg-primary shadow-xl text-lg"
@@ -130,17 +149,6 @@
                                 <p>{formatDate(item.created_at)}</p>
                             </div>
                             <p class="text-start">{item.description}</p>
-                        </div>
-                        <div class="flex justify-center">
-                            <Button
-                                onclick={(e: any) => {
-                                    e.preventDefault();
-                                    goto(`/update-mix/${item.id}`);
-                                }}
-                            >
-                                <EditOutline class="h-6 w-6 text-gray-600"
-                                ></EditOutline>
-                            </Button>
                         </div>
                     </a>
                 </Listgroup>

@@ -6,7 +6,9 @@
 </script>
 
 <header class="w-full flex p-10 bg-orange-600 items-center text-white mb-12">
-    <h1>MixMaster</h1>
+    <a href="/">
+        <h1>MixMaster</h1>
+    </a>
     {#if showLinks}
         <div class="w-full flex justify-end">
             <nav class="flex justify-between w-1/6">

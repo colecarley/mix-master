@@ -2,11 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
 * {
   font-family: 'Roboto', sans-serif;
-  background-color: #083344;
-  color: #f1f5f9;
 }
 
 html, body {

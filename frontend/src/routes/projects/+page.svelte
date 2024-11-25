@@ -9,6 +9,14 @@
     import Center from "../../components/center.svelte";
     import Squeeze from "../../components/squeeze.svelte";
     import { LocalStorage } from "$lib/localStorage";
+    import { Card, Button } from "flowbite-svelte";
+    import {
+        CirclePlusOutline,
+        EditOutline,
+        PlusOutline,
+        TrashBinOutline,
+    } from "flowbite-svelte-icons";
+    import MmCard from "../../components/mm-card.svelte";
 
     let projects: Project[] = [];
     onMount(async () => {
@@ -43,31 +51,27 @@
     <Squeeze>
         <div class="w-full flex justify-between">
             <h1>Projects</h1>
-            <button onclick={() => createNewProject()}>New Project</button>
+            <button onclick={() => createNewProject()}>
+                <PlusOutline class="h-6 w-6"></PlusOutline>
+            </button>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="flex gap-4">
             {#each projects as project}
-                <a href="/projects/{project.id}">
-                    <div class="border border-black">
-                        <h2>{project.name}</h2>
-                        <p>{project.description}</p>
-                        <button
-                            onclick={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
-                                deleteProject(project);
-                            }}>Delete</button
-                        >
-
-                        <button
-                            onclick={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
-                                goto(`/update-project/${project.id}`);
-                            }}>Update</button
-                        >
-                    </div>
-                </a>
+                <MmCard
+                    title={project.name}
+                    description={project.description}
+                    href="/projects/{project.id}"
+                    onDelete={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        deleteProject(project);
+                    }}
+                    onUpdate={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        goto(`/update-project/${project.id}`);
+                    }}
+                ></MmCard>
             {/each}
         </div>
     </Squeeze>

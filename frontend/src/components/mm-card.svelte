@@ -8,7 +8,7 @@
     export let onDelete: (e: any) => void;
 </script>
 
-<Card {href} class="rounded-lg p-5 shadow-xl">
+<Card {href} class="rounded-xl p-5 shadow-xl">
     <div class="flex justify-between">
         <h2>{title}</h2>
         <Button onclick={onUpdate}>

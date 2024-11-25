@@ -12,6 +12,9 @@
         type Project,
     } from "$lib/entities/projects";
     import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
+    import MmCard from "../../../components/mm-card.svelte";
+    import { Listgroup, ListgroupItem } from "flowbite-svelte";
+    import { PlusOutline } from "flowbite-svelte-icons";
 
     let userId: string;
     let projectId: string;
@@ -53,33 +56,29 @@
             <button
                 onclick={() => {
                     goto("/create-mix");
-                }}>New Mix</button
+                }}
             >
+                <PlusOutline class="h-6 w-6"></PlusOutline>
+            </button>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-4">
             {#each mixes as mix}
-                <a href="/projects/{projectId}/mixes/{mix.id}">
-                    <h2>{mix.name}</h2>
-                    <p>{formatDate(mix.created_at)}</p>
-                    <p>{mix.description}</p>
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            MixEntityInstance.delete(Number(mix.id));
-                            mixes = mixes.filter((m) => m.id !== mix.id);
-                        }}>Delete</button
-                    >
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            goto(`/update-mix/${mix.id}`);
-                        }}
-                    >
-                        Update
-                    </button>
-                </a>
+                <MmCard
+                    href="/projects/{projectId}/mixes/{mix.id}"
+                    title={mix.name}
+                    description={mix.description}
+                    onDelete={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        MixEntityInstance.delete(Number(mix.id));
+                        mixes = mixes.filter((m) => m.id !== mix.id);
+                    }}
+                    onUpdate={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        goto(`/update-mix/${mix.id}`);
+                    }}
+                ></MmCard>
             {/each}
         </div>
     </Squeeze>

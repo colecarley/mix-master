@@ -10,6 +10,7 @@
     import Squeeze from "./squeeze.svelte";
     import ProportionEntityInstance from "$lib/entities/proportions";
     import MaterialEntityInstance from "$lib/entities/materials";
+    import { Button, Input, Label, Select } from "flowbite-svelte";
 
     export let materialForm: MaterialCreate = {
         mix_id: null as unknown as number,
@@ -71,43 +72,89 @@
     }
 </script>
 
-<Header></Header>
-
 <Center>
     <Squeeze>
         <h1>Create Material</h1>
-        <input
-            type="text"
-            placeholder="material name"
-            bind:value={materialForm.name}
-        />
-        <input
-            type="number"
-            placeholder="cost per unit"
-            bind:value={materialForm.cost_per_unit}
-        />
-        <select placeholder="unit" bind:value={materialForm.unit_id}>
-            {#await getAllUnits() then units}
-                {#each units as unit}
-                    <option value={unit.id}>{unit.name}</option>
-                {/each}
-            {/await}
-        </select>
+        <div class="rounded-2xl p-6 bg-white shadow-xl">
+            <div class="mb-6">
+                <Label for="material" class="block mb-2">Material Name</Label>
+                <Input
+                    class="rounded-lg bg-slate-50 placeholder:text-slate-500"
+                    size="lg"
+                    id="material"
+                    type="text"
+                    placeholder="cement"
+                    bind:value={materialForm.name}
+                />
+            </div>
+            <div class="flex w-full gap-6">
+                <div class="mb-6 w-full">
+                    <Label for="cost_per_unit" class="block mb-2"
+                        >Cost Per Unit</Label
+                    >
+                    <Input
+                        class="rounded-lg bg-slate-50 placeholder:text-slate-500"
+                        size="lg"
+                        id="cost_per_unit"
+                        type="number"
+                        placeholder="20"
+                        bind:value={materialForm.cost_per_unit}
+                    />
+                </div>
+                {#await getAllUnits() then units}
+                    <div class="mb-6 w-full">
+                        <Label class="block mb-2" for="unit">Unit</Label>
+                        <Select
+                            id="unit"
+                            class="rounded-lg bg-slate-50 placeholder:text-slate-500 p-4 text-slate-500"
+                            bind:value={materialForm.unit_id}
+                            items={units.map((u) => ({
+                                value: u.id,
+                                name: u.name,
+                            }))}
+                        />
+                    </div>
+                {/await}
+            </div>
 
-        <input
-            type="number"
-            placeholder="quantity"
-            bind:value={proportionForm.quantity}
-        />
-        <select placeholder="unit" bind:value={proportionForm.unit_id}>
-            {#await getAllUnits() then units}
-                {#each units as unit}
-                    <option value={unit.id}>{unit.name}</option>
-                {/each}
-            {/await}
-        </select>
-        <button onclick={submit}
-            >{!materialId || !proportionId ? "Create" : "Update"}</button
-        >
+            <div class="flex w-full gap-6">
+                <div class="mb-6 w-full">
+                    <Label for="quantity" class="block mb-2">Quantity</Label>
+                    <Input
+                        id="quantity"
+                        class="rounded-lg bg-slate-50 placeholder:text-slate-500"
+                        size="lg"
+                        type="number"
+                        placeholder="quantity"
+                        bind:value={proportionForm.quantity}
+                    />
+                </div>
+
+                {#await getAllUnits() then units}
+                    <div class="mb-6 w-full">
+                        <Label class="block mb-2" for="unit2">Unit</Label>
+                        <Select
+                            id="unit2"
+                            class="rounded-lg bg-slate-50 placeholder:text-slate-500 p-4 text-slate-500"
+                            bind:value={proportionForm.unit_id}
+                            items={units.map((u) => ({
+                                value: u.id,
+                                name: u.name,
+                            }))}
+                        />
+                    </div>
+                {/await}
+            </div>
+            <div class="flex w-full justify-end">
+                <Button
+                    class="bg-orange-600 p-3 px-5 flex shadow-xl"
+                    size="lg"
+                    onclick={submit}
+                    >{!materialId || !proportionId
+                        ? "Create"
+                        : "Update"}</Button
+                >
+            </div>
+        </div>
     </Squeeze>
 </Center>

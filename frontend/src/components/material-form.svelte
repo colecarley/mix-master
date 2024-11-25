@@ -74,7 +74,6 @@
 
 <Center>
     <Squeeze>
-        <h1>Create Material</h1>
         <div class="rounded-2xl p-6 bg-white shadow-xl">
             <div class="mb-6">
                 <Label for="material" class="block mb-2">Material Name</Label>

@@ -5,6 +5,7 @@
     import MixEntityInstance, { type MixCreate } from "$lib/entities/mixes";
     import Center from "./center.svelte";
     import Squeeze from "./squeeze.svelte";
+    import { Button, Input, Label, Textarea } from "flowbite-svelte";
 
     export let form: MixCreate = {
         name: "",
@@ -51,12 +52,34 @@
 
 <Center>
     <Squeeze>
-        <input type="text" placeholder="mix name" bind:value={form.name} />
-        <input
-            type="text"
-            placeholder="description"
-            bind:value={form.description}
-        />
-        <button onclick={submit}>{mixId ? "Update" : "Create"}</button>
+        <div class="rounded-2xl p-6 bg-white shadow-xl">
+            <div class="mb-6">
+                <Label for="mix" class="block mb-2">Mix Name</Label>
+                <Input
+                    class="rounded-lg bg-slate-50 placeholder:text-slate-500"
+                    size="lg"
+                    id="mix"
+                    type="text"
+                    placeholder="mix one"
+                    bind:value={form.name}
+                />
+            </div>
+
+            <div class="mb-6">
+                <Label for="description" class="block mb-2">Description</Label>
+                <Textarea
+                    id="description"
+                    class="rounded-lg bg-slate-50 description"
+                    rows={4}
+                    bind:value={form.description}
+                />
+            </div>
+            <div class="flex w-full justify-end">
+                <Button
+                    class="bg-orange-600 p-3 px-5 flex shadow-xl"
+                    onclick={submit}>{mixId ? "Update" : "Create"}</Button
+                >
+            </div>
+        </div>
     </Squeeze>
 </Center>

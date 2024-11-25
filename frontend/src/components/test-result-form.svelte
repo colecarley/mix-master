@@ -6,6 +6,8 @@
         type TestResultCreate,
     } from "$lib/entities/test-results";
     import { onMount } from "svelte";
+    import { Button, Input, Label, Select } from "flowbite-svelte";
+    import { getAllUnits } from "$lib/entities/units";
 
     export let form: TestResultCreate = {
         test_date: "",
@@ -61,20 +63,69 @@
     }
 </script>
 
-<input
-    type="text"
-    placeholder="property measured"
-    bind:value={form.property_measured}
-/>
-<input type="date" placeholder="test date" bind:value={form.test_date} />
-<input type="number" placeholder="result" bind:value={form.result} />
+<div class="rounded-2xl p-6 bg-white shadow-xl">
+    <div class="mb-6">
+        <Label class="block mb-2" for="property_measured"
+            >Property Measured</Label
+        >
+        <Input
+            id="property_measured"
+            type="text"
+            size="lg"
+            class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+            placeholder="property measured"
+            bind:value={form.property_measured}
+        />
+    </div>
 
-<select placeholder="unit" bind:value={form.unit_id}>
-    {#await getUnits() then units}
-        {#each units as unit}
-            <option value={unit.id}>{unit.name}</option>
-        {/each}
-    {/await}
-</select>
+    <div class="mb-6">
+        <Label class="block mb-2" for="test_date">Test Date</Label>
+        <Input
+            type="date"
+            placeholder="test date"
+            size="lg"
+            class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+            bind:value={form.test_date}
+        />
+    </div>
 
-<button onclick={submit}>{!testResultId ? "Create" : "Update"}</button>
+    <div class="flex w-full gap-6">
+        <div class="mb-6 w-full">
+            <Label class="block mb-2" for="result">Result</Label>
+            <Input
+                id="result"
+                type="number"
+                size="lg"
+                class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+                placeholder="result"
+                bind:value={form.result}
+            />
+        </div>
+
+        {#await getAllUnits() then units}
+            <div class="mb-6 w-full">
+                <Label class="block mb-2" for="unit2">Unit</Label>
+                <Select
+                    id="unit2"
+                    class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+                    size="lg"
+                    bind:value={form.unit_id}
+                    items={units.map((u) => ({
+                        value: u.id,
+                        name: u.name,
+                    }))}
+                />
+            </div>
+        {/await}
+    </div>
+
+    <div class="flex w-full justify-end">
+        <Button
+            class="bg-orange-600 p-3 px-5 flex shadow-xl"
+            size="lg"
+            onclick={submit}
+        >
+            {!testResultId ? "Create" : "Update"}
+        </Button>
+    </div>
+</div>

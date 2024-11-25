@@ -1,25 +1,34 @@
 <script lang="ts">
     import Header from "../../../components/header.svelte";
 
-    import { page } from "$app/stores";
-    import { onMount } from "svelte";
-    import Squeeze from "../../../components/squeeze.svelte";
-    import Center from "../../../components/center.svelte";
     import { goto } from "$app/navigation";
-    import { formatDate, get } from "$lib/helpers";
-    import { LocalStorage } from "$lib/localStorage";
+    import { page } from "$app/stores";
+    import MaterialEntityInstance from "$lib/entities/materials";
+    import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
     import ProjectEntityInstance, {
         type Project,
     } from "$lib/entities/projects";
-    import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
+    import TestResultEntityInstance from "$lib/entities/test-results";
+    import { formatDate } from "$lib/helpers";
+    import { LocalStorage } from "$lib/localStorage";
+    import { Button, Listgroup, TabItem, Tabs } from "flowbite-svelte";
+    import { EditOutline, PlusOutline } from "flowbite-svelte-icons";
+    import { onMount } from "svelte";
+    import Center from "../../../components/center.svelte";
     import MmCard from "../../../components/mm-card.svelte";
-    import { Listgroup, ListgroupItem } from "flowbite-svelte";
-    import { PlusOutline } from "flowbite-svelte-icons";
+    import Squeeze from "../../../components/squeeze.svelte";
 
     let userId: string;
     let projectId: string;
     let project: Project;
     let mixes: Mix[];
+
+    type Stat = {
+        name: string;
+        value: string;
+    };
+
+    let stats: Stat[] = [];
 
     onMount(async () => {
         const sub = page.subscribe(async (value) => {
@@ -35,6 +44,31 @@
 
             project = await ProjectEntityInstance.get(Number(projectId));
             mixes = await MixEntityInstance.getAll();
+
+            let totalMaterials = 0;
+            let totalTestResults = 0;
+            for (const mix of mixes) {
+                const materials = await MaterialEntityInstance.getAll();
+                totalMaterials += materials.length;
+
+                const testResults = await TestResultEntityInstance.getAll();
+                totalTestResults += testResults.length;
+            }
+
+            stats = [
+                {
+                    name: "Total Mixes",
+                    value: mixes.length.toString(),
+                },
+                {
+                    name: "Total Materials",
+                    value: totalMaterials.toString(),
+                },
+                {
+                    name: "Total Test Results",
+                    value: totalTestResults.toString(),
+                },
+            ];
         });
 
         sub();
@@ -44,42 +78,73 @@
 <Header></Header>
 <Center>
     <Squeeze>
-        <h1>Project</h1>
-
-        {#if project}
-            <h2>{project.name}</h2>
-            <p>{formatDate(project.created_at)}</p>
-            <p>{project.description}</p>
-        {/if}
-        <div class="flex justify-between">
-            <h1>Mixes</h1>
-            <button
-                onclick={() => {
-                    goto("/create-mix");
-                }}
+        <Tabs>
+            <TabItem
+                title="Project"
+                open
+                activeClasses="p-4 text-white rounded-xl bg-primary shadow-xl text-lg"
+                inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
             >
-                <PlusOutline class="h-10 w-10"></PlusOutline>
-            </button>
-        </div>
-        <div class="flex flex-col gap-4">
-            {#each mixes as mix}
-                <MmCard
-                    href="/projects/{projectId}/mixes/{mix.id}"
-                    title={mix.name}
-                    description={mix.description}
-                    onDelete={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        MixEntityInstance.delete(Number(mix.id));
-                        mixes = mixes.filter((m) => m.id !== mix.id);
-                    }}
-                    onUpdate={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        goto(`/update-mix/${mix.id}`);
-                    }}
-                ></MmCard>
-            {/each}
-        </div>
+                <h1>Project</h1>
+                <div class="mb-6">
+                    {#if project}
+                        <MmCard
+                            title={project.name}
+                            subtitle={formatDate(project.created_at)}
+                            description={project.description}
+                        ></MmCard>
+                    {/if}
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {#each stats as stat}
+                        <MmCard title={stat.name} description={stat.value}
+                        ></MmCard>
+                    {/each}
+                </div></TabItem
+            >
+            <TabItem
+                title="Mixes"
+                activeClasses="p-4 text-white rounded-xl bg-primary shadow-xl text-lg"
+                inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
+            >
+                <div class="flex justify-between">
+                    <h1>Mixes</h1>
+                    <button
+                        onclick={() => {
+                            goto("/create-mix");
+                        }}
+                    >
+                        <PlusOutline class="h-10 w-10"></PlusOutline>
+                    </button>
+                </div>
+
+                <Listgroup items={mixes} let:item class="shadow-xl" active>
+                    <a
+                        href="/projects/{projectId}/mixes/{item.id}"
+                        class="flex justify-between w-full"
+                    >
+                        <div class="mb-2 flex flex-col">
+                            <div class="mb-2 text-start">
+                                <h2 class="mb-2">{item.name}</h2>
+                                <p>{formatDate(item.created_at)}</p>
+                            </div>
+                            <p class="text-start">{item.description}</p>
+                        </div>
+                        <div class="flex justify-center">
+                            <Button
+                                onclick={(e: any) => {
+                                    e.preventDefault();
+                                    goto(`/update-mix/${item.id}`);
+                                }}
+                            >
+                                <EditOutline class="h-6 w-6 text-gray-600"
+                                ></EditOutline>
+                            </Button>
+                        </div>
+                    </a>
+                </Listgroup>
+            </TabItem>
+        </Tabs>
     </Squeeze>
 </Center>

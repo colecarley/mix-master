@@ -8,6 +8,7 @@
     import MaterialEntityInstance from "$lib/entities/materials";
     import Center from "../../../../components/center.svelte";
     import Squeeze from "../../../../components/squeeze.svelte";
+    import Header from "../../../../components/header.svelte";
 
     let material: Material | null = null;
     let proportion: Proportion | null = null;
@@ -25,6 +26,7 @@
     });
 </script>
 
+<Header></Header>
 <Center>
     <Squeeze>
         {#if material && proportion}

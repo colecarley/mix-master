@@ -5,6 +5,7 @@
     import MixForm from "../../../components/mix-form.svelte";
     import Center from "../../../components/center.svelte";
     import Squeeze from "../../../components/squeeze.svelte";
+    import Header from "../../../components/header.svelte";
 
     let mix: Mix | null = $state(null);
     onMount(() => {
@@ -18,6 +19,7 @@
     });
 </script>
 
+<Header></Header>
 <Center>
     <Squeeze>
         {#if mix}

@@ -6,6 +6,7 @@
     import ProjectEntityInstance from "$lib/entities/projects";
     import Squeeze from "../../../components/squeeze.svelte";
     import Center from "../../../components/center.svelte";
+    import Header from "../../../components/header.svelte";
 
     let project: Project | null = $state(null);
     onMount(() => {
@@ -19,6 +20,7 @@
     });
 </script>
 
+<Header></Header>
 <Center>
     <Squeeze>
         {#if project}

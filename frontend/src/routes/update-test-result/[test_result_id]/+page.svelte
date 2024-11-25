@@ -6,6 +6,7 @@
     import type { TestResult } from "$lib/entities/test-results";
     import Center from "../../../components/center.svelte";
     import Squeeze from "../../../components/squeeze.svelte";
+    import Header from "../../../components/header.svelte";
 
     let testResult: TestResult | null = $state(null);
     onMount(() => {
@@ -21,6 +22,7 @@
     });
 </script>
 
+<Header></Header>
 <Center>
     <Squeeze>
         {#if testResult}

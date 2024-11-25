@@ -101,7 +101,8 @@
                 <Label class="block mb-2" for="unit">Unit</Label>
                 <Select
                     id="unit"
-                    class="rounded-lg bg-slate-50 placeholder:text-slate-500 p-4 text-slate-500"
+                    class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+                    size="lg"
                     bind:value={materialForm.unit_id}
                     items={units.map((u) => ({
                         value: u.id,
@@ -130,7 +131,8 @@
                 <Label class="block mb-2" for="unit2">Unit</Label>
                 <Select
                     id="unit2"
-                    class="rounded-lg bg-slate-50 placeholder:text-slate-500 p-4 text-slate-500"
+                    class="rounded-lg bg-slate-50 placeholder:text-slate-500 text-slate-500"
+                    size="lg"
                     bind:value={proportionForm.unit_id}
                     items={units.map((u) => ({
                         value: u.id,

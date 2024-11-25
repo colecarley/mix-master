@@ -11,6 +11,7 @@
     import Header from "../../components/header.svelte";
     import MmCard from "../../components/mm-card.svelte";
     import Squeeze from "../../components/squeeze.svelte";
+    import { Button, Modal } from "flowbite-svelte";
 
     let projects: Project[] = [];
     onMount(async () => {
@@ -37,6 +38,8 @@
         ProjectEntityInstance.delete(Number(project.id));
         projects = projects.filter((p) => p.id !== project.id);
     }
+
+    let openModa = false;
 </script>
 
 <Header></Header>

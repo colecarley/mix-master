@@ -4,7 +4,7 @@
         type ProjectCreate,
     } from "$lib/entities/projects";
     import { LocalStorage } from "$lib/localStorage";
-    import { Button, Input, Label } from "flowbite-svelte";
+    import { Button, Datepicker, Input, Label } from "flowbite-svelte";
     import { onMount } from "svelte";
 
     export let form: ProjectCreate = {

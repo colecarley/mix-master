@@ -1,4 +1,7 @@
 <script lang="ts">
+    import { goto } from "$app/navigation";
+    import SessionInstance from "$lib/session";
+
     let { showLinks = true } = $props();
 </script>
 
@@ -6,10 +9,14 @@
     <h1>MixMaster</h1>
     {#if showLinks}
         <div class="w-full flex justify-end">
-            <nav class="flex justify-between w-1/3">
-                <a href="/projects">Projects</a>
-                <a href="/profile">Profile</a>
-                <a href="/">Log out</a>
+            <nav class="flex justify-between w-1/6">
+                <button onclick={() => goto("/projects")}>Projects</button>
+                <button onclick={() => goto("/profile")}>Profile</button>
+                <button
+                    onclick={() => {
+                        SessionInstance.logout();
+                    }}>Log out</button
+                >
             </nav>
         </div>
     {/if}

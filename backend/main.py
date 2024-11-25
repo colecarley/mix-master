@@ -44,6 +44,14 @@ def update_user(user_id, user: UserCreate, db: Session = Depends(database.get_db
     db.commit()
     return old_user
 
+@app.post("/users/delete/{user_id}")
+def delete_user(user_id, db: Session = Depends(database.get_db)):
+    user = db.query(User.User).filter(User.User.id == user_id).first()
+    db.delete(user)
+    db.commit()
+    return user
+
+
 class ProjectCreate(BaseModel):
     name: str
     description: str

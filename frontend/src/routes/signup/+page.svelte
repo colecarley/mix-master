@@ -6,6 +6,7 @@
     import Center from "../../components/center.svelte";
     import Header from "../../components/header.svelte";
     import Squeeze from "../../components/squeeze.svelte";
+    import SessionInstance from "$lib/session";
 
     let form = {
         username: "",
@@ -82,9 +83,10 @@
 
                             const user = await response.json();
 
-                            LocalStorage.CurrentUserId.set(user.id);
-
-                            goto("/projects");
+                            await SessionInstance.login(
+                                form.username,
+                                form.password,
+                            );
                         }}
                     >
                         Sign Up!

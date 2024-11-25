@@ -6,6 +6,7 @@
     import Center from "../../components/center.svelte";
     import Squeeze from "../../components/squeeze.svelte";
     import Header from "../../components/header.svelte";
+    import SessionInstance from "$lib/session";
 
     let username = "";
     let password = "";
@@ -44,19 +45,7 @@
                         class="bg-orange-600 p-3 px-5 flex shadow-xl"
                         size="lg"
                         onclick={async () => {
-                            const response = await post("/login/", {
-                                username,
-                                password,
-                            });
-
-                            if (response.ok) {
-                                const { id } = await response.json();
-
-                                LocalStorage.CurrentUserId.set(id);
-                                goto("/projects");
-                            } else {
-                                console.error("error");
-                            }
+                            await SessionInstance.login(username, password);
                         }}
                     >
                         Sign in

@@ -74,27 +74,27 @@
         </div>
         <div class="flex flex-col">
             <Table class="table-fixed">
-                <TableHead class="bg-slate-200">
-                    <TableHeadCell>NAME</TableHeadCell>
+                <TableHead class="bg-orange-600 text-white">
+                    <TableHeadCell class="p-2">NAME</TableHeadCell>
                     <TableHeadCell>AMOUNT</TableHeadCell>
                     <TableHeadCell>COST PER UNIT</TableHeadCell>
                     <TableHeadCell></TableHeadCell>
                 </TableHead>
                 <TableBody tableBodyClass="divide-y divide-slate-200">
                     {#each materialsWithProportions as material}
-                        <TableBodyRow class="bg-slate-600 p-2">
-                            <TableBodyCell class="text-center text-slate-100"
+                        <TableBodyRow class="p-2">
+                            <TableBodyCell class="text-center"
                                 >{material.name}</TableBodyCell
                             >
-                            <TableBodyCell class="text-center text-slate-100"
+                            <TableBodyCell class="text-center"
                                 >{material.proportion?.quantity}</TableBodyCell
                             >
-                            <TableBodyCell class="text-center text-slate-100"
+                            <TableBodyCell class="text-center"
                                 >{material.cost_per_unit}</TableBodyCell
                             >
                             <TableBodyCell tdClass="flex justify-end">
                                 <Button
-                                    class="flex gap-2 text-slate-100 p-2"
+                                    class="flex gap-2 text-black p-2"
                                     onclick={(e: any) => {
                                         e.preventDefault();
                                         e.stopPropagation();
@@ -112,8 +112,7 @@
                                     }}
                                 >
                                     Delete
-                                    <TrashBinOutline
-                                        class="h-6 w-6 text-slate-100"
+                                    <TrashBinOutline class="h-6 w-6"
                                     ></TrashBinOutline>
                                 </Button>
                             </TableBodyCell>
@@ -129,27 +128,27 @@
             </button>
         </div>
         <Table class="table-fixed">
-            <TableHead class="bg-slate-200">
-                <TableHeadCell>PROPERTY MEASURED</TableHeadCell>
+            <TableHead class="bg-orange-600 text-white">
+                <TableHeadCell class="p-2">PROPERTY MEASURED</TableHeadCell>
                 <TableHeadCell>RESULT</TableHeadCell>
                 <TableHeadCell>TEST DATE</TableHeadCell>
                 <TableHeadCell></TableHeadCell>
             </TableHead>
             <TableBody tableBodyClass="divide-y divide-slate-200">
                 {#each testResults as testResult}
-                    <TableBodyRow class="bg-slate-600 p-2">
-                        <TableBodyCell class="text-center text-slate-100"
+                    <TableBodyRow class="p-2">
+                        <TableBodyCell class="text-center"
                             >{testResult.property_measured}</TableBodyCell
                         >
-                        <TableBodyCell class="text-center text-slate-100"
+                        <TableBodyCell class="text-center"
                             >{testResult.result}</TableBodyCell
                         >
-                        <TableBodyCell class="text-center text-slate-100"
+                        <TableBodyCell class="text-center"
                             >{formatDate(testResult.test_date)}</TableBodyCell
                         >
                         <TableBodyCell tdClass="flex justify-end">
                             <Button
-                                class="flex gap-2 text-slate-100 p-2"
+                                class="flex gap-2 text-black p-2"
                                 onclick={(e: any) => {
                                     e.preventDefault();
                                     e.stopPropagation();
@@ -162,7 +161,7 @@
                                 }}
                             >
                                 Delete
-                                <TrashBinOutline class="h-6 w-6 text-slate-100"
+                                <TrashBinOutline class="h-6 w-6"
                                 ></TrashBinOutline>
                             </Button>
                         </TableBodyCell>

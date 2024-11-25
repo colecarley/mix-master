@@ -4,7 +4,7 @@
         type ProjectCreate,
     } from "$lib/entities/projects";
     import { LocalStorage } from "$lib/localStorage";
-    import { Button, Datepicker, Input, Label } from "flowbite-svelte";
+    import { Button, Input, Label, Textarea } from "flowbite-svelte";
     import { onMount } from "svelte";
 
     export let form: ProjectCreate = {
@@ -64,12 +64,10 @@
 
     <div class="mb-6">
         <Label for="description" class="block mb-2">Description</Label>
-        <Input
+        <Textarea
             id="description"
-            class="rounded-lg bg-slate-50 placeholder:text-slate-500 p-4 text-slate-500"
-            size="lg"
-            type="text"
-            placeholder="description"
+            class="rounded-lg bg-slate-50 description"
+            rows={4}
             bind:value={form.description}
         />
     </div>

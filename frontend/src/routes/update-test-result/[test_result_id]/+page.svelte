@@ -25,6 +25,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Update Test Result</h1>
         {#if testResult}
             <TestResultForm form={testResult} testResultId={testResult.id}
             ></TestResultForm>

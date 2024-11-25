@@ -29,6 +29,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Update Material</h1>
         {#if material && proportion}
             <MaterialForm
                 materialForm={material}

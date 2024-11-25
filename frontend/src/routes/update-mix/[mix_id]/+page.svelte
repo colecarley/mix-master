@@ -22,6 +22,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Update Mix</h1>
         {#if mix}
             <MixForm form={mix} mixId={mix.id}></MixForm>
         {/if}

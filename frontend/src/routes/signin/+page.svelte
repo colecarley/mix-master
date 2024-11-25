@@ -14,6 +14,7 @@
     <Squeeze>
         <div class="flex h-fit justify-center">
             <div class="rounded-2xl p-6 bg-white shadow-xl w-1/3">
+                <h1 class="mb-6">Sign in</h1>
                 <div class="mb-6">
                     <Label for="username" class="block mb-2">Username</Label>
                     <Input

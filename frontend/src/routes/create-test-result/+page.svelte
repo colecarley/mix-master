@@ -8,6 +8,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Create Test Result</h1>
         <TestResultForm testResultId={null}></TestResultForm>
     </Squeeze>
 </Center>

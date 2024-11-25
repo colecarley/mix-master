@@ -8,6 +8,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Create Mix</h1>
         <MixForm mixId={null}></MixForm>
     </Squeeze>
 </Center>

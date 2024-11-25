@@ -23,6 +23,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Update Project</h1>
         {#if project}
             <ProjectForm form={project} projectId={project.id}></ProjectForm>
         {/if}

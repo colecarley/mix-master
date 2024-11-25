@@ -8,6 +8,7 @@
 <Header></Header>
 <Center>
     <Squeeze>
+        <h1 class="mb-6">Create Material</h1>
         <MaterialForm materialId={null} proportionId={null}></MaterialForm>
     </Squeeze>
 </Center>

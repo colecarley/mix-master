@@ -50,36 +50,31 @@
     }
 </script>
 
-<Center>
-    <Squeeze>
-        <div class="rounded-2xl p-6 bg-white shadow-xl">
-            <div class="mb-6">
-                <Label for="mix" class="block mb-2">Mix Name</Label>
-                <Input
-                    class="rounded-lg bg-slate-50 placeholder:text-slate-500"
-                    size="lg"
-                    id="mix"
-                    type="text"
-                    placeholder="mix one"
-                    bind:value={form.name}
-                />
-            </div>
+<div class="rounded-2xl p-6 bg-white shadow-xl">
+    <div class="mb-6">
+        <Label for="mix" class="block mb-2">Mix Name</Label>
+        <Input
+            class="rounded-lg bg-slate-50 placeholder:text-slate-500"
+            size="lg"
+            id="mix"
+            type="text"
+            placeholder="mix one"
+            bind:value={form.name}
+        />
+    </div>
 
-            <div class="mb-6">
-                <Label for="description" class="block mb-2">Description</Label>
-                <Textarea
-                    id="description"
-                    class="rounded-lg bg-slate-50 description"
-                    rows={4}
-                    bind:value={form.description}
-                />
-            </div>
-            <div class="flex w-full justify-end">
-                <Button
-                    class="bg-orange-600 p-3 px-5 flex shadow-xl"
-                    onclick={submit}>{mixId ? "Update" : "Create"}</Button
-                >
-            </div>
-        </div>
-    </Squeeze>
-</Center>
+    <div class="mb-6">
+        <Label for="description" class="block mb-2">Description</Label>
+        <Textarea
+            id="description"
+            class="rounded-lg bg-slate-50 description"
+            rows={4}
+            bind:value={form.description}
+        />
+    </div>
+    <div class="flex w-full justify-end">
+        <Button class="bg-orange-600 p-3 px-5 flex shadow-xl" onclick={submit}
+            >{mixId ? "Update" : "Create"}</Button
+        >
+    </div>
+</div>

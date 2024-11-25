@@ -26,10 +26,10 @@
     });
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
-        <h1 class="mb-6">Update Material</h1>
+        <h1 class="mb-6 text-gray-600">Update Material</h1>
         {#if material && proportion}
             <MaterialForm
                 materialForm={material}

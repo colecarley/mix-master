@@ -5,10 +5,10 @@
     import Squeeze from "../../components/squeeze.svelte";
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
-        <h1 class="mb-6">Create Project</h1>
+        <h1 class="mb-6 text-grauy-600">Create Project</h1>
         <ProjectForm projectId={null}></ProjectForm>
     </Squeeze>
 </Center>

@@ -78,8 +78,8 @@
     });
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
         {#if mix}
             <Tabs tabStyle="pill">
@@ -125,9 +125,10 @@
                     inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
                 >
                     <div class="w-full flex justify-between">
-                        <h1>Materials</h1>
+                        <h1 class="text-gray-600">Materials</h1>
                         <button onclick={() => goto("/create-material")}>
-                            <PlusOutline class="h-10 w-10"></PlusOutline>
+                            <PlusOutline class="h-10 w-10 text-gray-600"
+                            ></PlusOutline>
                         </button>
                     </div>
                     <div class="flex flex-col">
@@ -157,7 +158,7 @@
                                             tdClass="flex justify-end gap-6"
                                         >
                                             <Button
-                                                class="flex gap-2 text-black p-2"
+                                                class="flex gap-2 text-gray-600 p-2"
                                                 onclick={(e: any) => {
                                                     e.preventDefault();
                                                     e.stopPropagation();
@@ -171,7 +172,7 @@
                                                 ></EditOutline>
                                             </Button>
                                             <Button
-                                                class="flex gap-2 text-black p-2"
+                                                class="flex gap-2 text-gray-600 p-2"
                                                 onclick={(e: any) => {
                                                     e.preventDefault();
                                                     e.stopPropagation();
@@ -210,9 +211,10 @@
                     inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
                 >
                     <div class="w-full flex justify-between">
-                        <h1>Test Results</h1>
+                        <h1 class="text-gray-600">Test Results</h1>
                         <button onclick={() => goto("/create-test-result")}>
-                            <PlusOutline class="h-10 w-10"></PlusOutline>
+                            <PlusOutline class="h-10 w-10 text-gray-600"
+                            ></PlusOutline>
                         </button>
                     </div>
                     <Table class="table-fixed shadow-xl ">
@@ -240,7 +242,7 @@
                                     >
                                     <TableBodyCell tdClass="flex justify-end">
                                         <Button
-                                            class="flex gap-2 p-2 text-black"
+                                            class="flex gap-2 p-2 text-gray-600"
                                             onclick={(e: any) => {
                                                 e.preventDefault();
                                                 e.stopPropagation();

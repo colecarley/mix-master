@@ -6,11 +6,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.noise {
+    /* ... */
+    
+}
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background:
+      radial-gradient(#ff9898, transparent),
+      url(https://grainy-gradients.vercel.app/noise.svg);
 }
 
 h1 {

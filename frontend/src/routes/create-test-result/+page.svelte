@@ -5,10 +5,10 @@
     import TestResultForm from "../../components/test-result-form.svelte";
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
-        <h1 class="mb-6">Create Test Result</h1>
+        <h1 class="mb-6 text-gray-600">Create Test Result</h1>
         <TestResultForm testResultId={null}></TestResultForm>
     </Squeeze>
 </Center>

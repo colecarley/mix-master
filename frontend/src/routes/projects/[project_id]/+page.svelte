@@ -75,8 +75,8 @@
     });
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
         <Tabs>
             <TabItem
@@ -85,7 +85,7 @@
                 activeClasses="p-4 text-white rounded-xl bg-primary shadow-xl text-lg"
                 inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
             >
-                <h1>Project</h1>
+                <h1 class="text-gray-600">Project</h1>
                 <div class="mb-6">
                     {#if project}
                         <MmCard
@@ -124,13 +124,14 @@
                 inactiveClasses="p-4 rounded-xl text-lg bg-white text-primary"
             >
                 <div class="flex justify-between">
-                    <h1>Mixes</h1>
+                    <h1 class="text-gray-600">Mixes</h1>
                     <button
                         onclick={() => {
                             goto("/create-mix");
                         }}
                     >
-                        <PlusOutline class="h-10 w-10"></PlusOutline>
+                        <PlusOutline class="h-10 w-10 text-gray-600"
+                        ></PlusOutline>
                     </button>
                 </div>
 
@@ -139,8 +140,8 @@
                         href="/projects/{projectId}/mixes/{item.id}"
                         class="flex justify-between w-full"
                     >
-                        <div class="mb-2 flex flex-col">
-                            <div class="mb-2 text-start">
+                        <div class="flex flex-col">
+                            <div class="text-start">
                                 <h2 class="mb-2">{item.name}</h2>
                                 <p>{formatDate(item.created_at)}</p>
                             </div>

@@ -42,8 +42,8 @@
     });
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
         <div class="flex h-fit justify-center">
             <div class="rounded-2xl p-6 bg-white shadow-xl w-1/3">

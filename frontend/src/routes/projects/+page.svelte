@@ -39,14 +39,13 @@
     }
 </script>
 
-<Header></Header>
-
 <Center>
+    <Header></Header>
     <Squeeze>
         <div class="w-full flex justify-between">
-            <h1>Projects</h1>
+            <h1 class="text-gray-600">Projects</h1>
             <button onclick={() => createNewProject()}>
-                <PlusOutline class="h-10 w-10"></PlusOutline>
+                <PlusOutline class="h-10 w-10 text-gray-600"></PlusOutline>
             </button>
         </div>
         <div class="grid grid-cols-2 gap-6">

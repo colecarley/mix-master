@@ -19,10 +19,10 @@
     });
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
-        <h1 class="mb-6">Update Mix</h1>
+        <h1 class="mb-6 text-gray-600">Update Mix</h1>
         {#if mix}
             <MixForm form={mix} mixId={mix.id}></MixForm>
         {/if}

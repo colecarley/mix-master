@@ -7,9 +7,8 @@
     import Squeeze from "../components/squeeze.svelte";
 </script>
 
-<Header showLinks={false}></Header>
-
 <Center>
+    <Header showLinks={false}></Header>
     <Squeeze>
         <h1 class="text-4xl font-light mb-6 text-gray-600">
             WELOME TO MIXMASTER
@@ -31,7 +30,7 @@
                 as view all of your mix designs in one place.
             </p>
         </div>
-        <div class="flex gap-6">
+        <div class="flex gap-6 m-12">
             <MmCard
                 title="Sign in"
                 description="Already have an account? Sign in to start keeping track of your concrete mix designs."

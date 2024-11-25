@@ -5,10 +5,10 @@
     import Squeeze from "../../components/squeeze.svelte";
 </script>
 
-<Header></Header>
 <Center>
+    <Header></Header>
     <Squeeze>
-        <h1 class="mb-6">Create Mix</h1>
+        <h1 class="mb-6 text-gray-600">Create Mix</h1>
         <MixForm mixId={null}></MixForm>
     </Squeeze>
 </Center>

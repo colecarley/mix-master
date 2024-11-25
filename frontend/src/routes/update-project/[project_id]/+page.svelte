@@ -4,6 +4,8 @@
     import ProjectForm from "../../../components/project-form.svelte";
     import type { Project } from "$lib/entities/projects";
     import ProjectEntityInstance from "$lib/entities/projects";
+    import Squeeze from "../../../components/squeeze.svelte";
+    import Center from "../../../components/center.svelte";
 
     let project: Project | null = $state(null);
     onMount(() => {
@@ -17,6 +19,10 @@
     });
 </script>
 
-{#if project}
-    <ProjectForm form={project} projectId={project.id}></ProjectForm>
-{/if}
+<Center>
+    <Squeeze>
+        {#if project}
+            <ProjectForm form={project} projectId={project.id}></ProjectForm>
+        {/if}
+    </Squeeze>
+</Center>

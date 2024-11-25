@@ -6,6 +6,8 @@
     import type { Proportion } from "$lib/entities/proportions";
     import ProportionEntityInstance from "$lib/entities/proportions";
     import MaterialEntityInstance from "$lib/entities/materials";
+    import Center from "../../../../components/center.svelte";
+    import Squeeze from "../../../../components/squeeze.svelte";
 
     let material: Material | null = null;
     let proportion: Proportion | null = null;
@@ -23,11 +25,15 @@
     });
 </script>
 
-{#if material && proportion}
-    <MaterialForm
-        materialForm={material}
-        proportionForm={proportion}
-        materialId={material.id}
-        proportionId={proportion.id}
-    ></MaterialForm>
-{/if}
+<Center>
+    <Squeeze>
+        {#if material && proportion}
+            <MaterialForm
+                materialForm={material}
+                proportionForm={proportion}
+                materialId={material.id}
+                proportionId={proportion.id}
+            ></MaterialForm>
+        {/if}
+    </Squeeze>
+</Center>

@@ -17,14 +17,12 @@
     import { LocalStorage } from "$lib/localStorage";
     import {
         Button,
-        TabItem,
         Table,
         TableBody,
         TableBodyCell,
         TableBodyRow,
         TableHead,
         TableHeadCell,
-        Tabs,
     } from "flowbite-svelte";
     import { PlusOutline, TrashBinOutline } from "flowbite-svelte-icons";
     import { formatDate } from "$lib/helpers";

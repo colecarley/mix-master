@@ -3,6 +3,8 @@
     import MixEntityInstance, { type Mix } from "$lib/entities/mixes";
     import { onMount } from "svelte";
     import MixForm from "../../../components/mix-form.svelte";
+    import Center from "../../../components/center.svelte";
+    import Squeeze from "../../../components/squeeze.svelte";
 
     let mix: Mix | null = $state(null);
     onMount(() => {
@@ -16,6 +18,10 @@
     });
 </script>
 
-{#if mix}
-    <MixForm form={mix} mixId={mix.id}></MixForm>
-{/if}
+<Center>
+    <Squeeze>
+        {#if mix}
+            <MixForm form={mix} mixId={mix.id}></MixForm>
+        {/if}
+    </Squeeze>
+</Center>

@@ -4,6 +4,8 @@
     import TestResultEntityInstance from "$lib/entities/test-results";
     import { page } from "$app/stores";
     import type { TestResult } from "$lib/entities/test-results";
+    import Center from "../../../components/center.svelte";
+    import Squeeze from "../../../components/squeeze.svelte";
 
     let testResult: TestResult | null = $state(null);
     onMount(() => {
@@ -19,7 +21,11 @@
     });
 </script>
 
-{#if testResult}
-    <TestResultForm form={testResult} testResultId={testResult.id}
-    ></TestResultForm>
-{/if}
+<Center>
+    <Squeeze>
+        {#if testResult}
+            <TestResultForm form={testResult} testResultId={testResult.id}
+            ></TestResultForm>
+        {/if}
+    </Squeeze>
+</Center>

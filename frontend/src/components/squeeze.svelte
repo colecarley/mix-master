@@ -1,3 +1,3 @@
-<div class="flex flex-col w-10/12">
+<div class="flex flex-col w-3/4">
     <slot></slot>
 </div>

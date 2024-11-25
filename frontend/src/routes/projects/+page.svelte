@@ -1,22 +1,16 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-    import { onMount } from "svelte";
     import ProjectEntityInstance, {
         ProjectEntity,
         type Project,
     } from "$lib/entities/projects";
-    import Header from "../../components/header.svelte";
-    import Center from "../../components/center.svelte";
-    import Squeeze from "../../components/squeeze.svelte";
     import { LocalStorage } from "$lib/localStorage";
-    import { Card, Button } from "flowbite-svelte";
-    import {
-        CirclePlusOutline,
-        EditOutline,
-        PlusOutline,
-        TrashBinOutline,
-    } from "flowbite-svelte-icons";
+    import { PlusOutline } from "flowbite-svelte-icons";
+    import { onMount } from "svelte";
+    import Center from "../../components/center.svelte";
+    import Header from "../../components/header.svelte";
     import MmCard from "../../components/mm-card.svelte";
+    import Squeeze from "../../components/squeeze.svelte";
 
     let projects: Project[] = [];
     onMount(async () => {
@@ -52,7 +46,7 @@
         <div class="w-full flex justify-between">
             <h1>Projects</h1>
             <button onclick={() => createNewProject()}>
-                <PlusOutline class="h-6 w-6"></PlusOutline>
+                <PlusOutline class="h-10 w-10"></PlusOutline>
             </button>
         </div>
         <div class="flex gap-4">

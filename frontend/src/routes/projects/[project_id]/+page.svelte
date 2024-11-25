@@ -58,7 +58,7 @@
                     goto("/create-mix");
                 }}
             >
-                <PlusOutline class="h-6 w-6"></PlusOutline>
+                <PlusOutline class="h-10 w-10"></PlusOutline>
             </button>
         </div>
         <div class="flex flex-col gap-4">

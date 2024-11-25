@@ -15,6 +15,19 @@
     import Header from "../../../../../components/header.svelte";
     import Squeeze from "../../../../../components/squeeze.svelte";
     import { LocalStorage } from "$lib/localStorage";
+    import {
+        Button,
+        TabItem,
+        Table,
+        TableBody,
+        TableBodyCell,
+        TableBodyRow,
+        TableHead,
+        TableHeadCell,
+        Tabs,
+    } from "flowbite-svelte";
+    import { PlusOutline, TrashBinOutline } from "flowbite-svelte-icons";
+    import { formatDate } from "$lib/helpers";
 
     let materialsWithProportions: (Material & { proportion: Proportion })[] =
         $state([]);
@@ -57,76 +70,107 @@
     <Squeeze>
         <div class="w-full flex justify-between">
             <h1>Materials</h1>
-            <button onclick={() => goto("/create-material")}
-                >Add Material</button
-            >
+            <button onclick={() => goto("/create-material")}>
+                <PlusOutline class="h-10 w-10"></PlusOutline>
+            </button>
         </div>
         <div class="flex flex-col">
-            {#each materialsWithProportions as material}
-                <div class="border border-black">
-                    <h2>{material.name}</h2>
-                    <p>{material.proportion?.quantity}</p>
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            ProportionEntityInstance.delete(
-                                Number(material.proportion.id),
-                            );
-                            MaterialEntityInstance.delete(Number(material.id));
+            <Table class="table-fixed">
+                <TableHead class="bg-slate-200">
+                    <TableHeadCell>NAME</TableHeadCell>
+                    <TableHeadCell>AMOUNT</TableHeadCell>
+                    <TableHeadCell>COST PER UNIT</TableHeadCell>
+                    <TableHeadCell></TableHeadCell>
+                </TableHead>
+                <TableBody tableBodyClass="divide-y divide-slate-200">
+                    {#each materialsWithProportions as material}
+                        <TableBodyRow class="bg-slate-600 p-2">
+                            <TableBodyCell class="text-center text-slate-100"
+                                >{material.name}</TableBodyCell
+                            >
+                            <TableBodyCell class="text-center text-slate-100"
+                                >{material.proportion?.quantity}</TableBodyCell
+                            >
+                            <TableBodyCell class="text-center text-slate-100"
+                                >{material.cost_per_unit}</TableBodyCell
+                            >
+                            <TableBodyCell tdClass="flex justify-end">
+                                <Button
+                                    class="flex gap-2 text-slate-100 p-2"
+                                    onclick={(e: any) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        ProportionEntityInstance.delete(
+                                            Number(material.proportion.id),
+                                        );
+                                        MaterialEntityInstance.delete(
+                                            Number(material.id),
+                                        );
 
-                            materialsWithProportions =
-                                materialsWithProportions.filter(
-                                    (m) => m.id !== material.id,
-                                );
-                        }}>Delete</button
-                    >
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            goto(
-                                `/update-material/${material.id}/${material.proportion.id}`,
-                            );
-                        }}>Update</button
-                    >
-                </div>
-            {/each}
+                                        materialsWithProportions =
+                                            materialsWithProportions.filter(
+                                                (m) => m.id !== material.id,
+                                            );
+                                    }}
+                                >
+                                    Delete
+                                    <TrashBinOutline
+                                        class="h-6 w-6 text-slate-100"
+                                    ></TrashBinOutline>
+                                </Button>
+                            </TableBodyCell>
+                        </TableBodyRow>
+                    {/each}
+                </TableBody>
+            </Table>
         </div>
         <div class="w-full flex justify-between">
             <h1>Test Result</h1>
-            <button onclick={() => goto("/create-test-result")}
-                >Add Test Result</button
-            >
+            <button onclick={() => goto("/create-test-result")}>
+                <PlusOutline class="h-10 w-10"></PlusOutline>
+            </button>
         </div>
-        <div class="flex flex-col">
-            {#each testResults as testResult}
-                <div class="border border-black">
-                    <h2>{testResult.property_measured}</h2>
-                    <p>{testResult.result}</p>
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            TestResultEntityInstance.delete(
-                                Number(testResult.id),
-                            );
-                            testResults = testResults.filter(
-                                (t) => t.id !== testResult.id,
-                            );
-                        }}
-                    >
-                        Delete
-                    </button>
-                    <button
-                        onclick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            goto(`/update-test-result/${testResult.id}`);
-                        }}>Update</button
-                    >
-                </div>
-            {/each}
-        </div></Squeeze
-    >
+        <Table class="table-fixed">
+            <TableHead class="bg-slate-200">
+                <TableHeadCell>PROPERTY MEASURED</TableHeadCell>
+                <TableHeadCell>RESULT</TableHeadCell>
+                <TableHeadCell>TEST DATE</TableHeadCell>
+                <TableHeadCell></TableHeadCell>
+            </TableHead>
+            <TableBody tableBodyClass="divide-y divide-slate-200">
+                {#each testResults as testResult}
+                    <TableBodyRow class="bg-slate-600 p-2">
+                        <TableBodyCell class="text-center text-slate-100"
+                            >{testResult.property_measured}</TableBodyCell
+                        >
+                        <TableBodyCell class="text-center text-slate-100"
+                            >{testResult.result}</TableBodyCell
+                        >
+                        <TableBodyCell class="text-center text-slate-100"
+                            >{formatDate(testResult.test_date)}</TableBodyCell
+                        >
+                        <TableBodyCell tdClass="flex justify-end">
+                            <Button
+                                class="flex gap-2 text-slate-100 p-2"
+                                onclick={(e: any) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    TestResultEntityInstance.delete(
+                                        Number(testResult.id),
+                                    );
+                                    testResults = testResults.filter(
+                                        (t) => t.id !== testResult.id,
+                                    );
+                                }}
+                            >
+                                Delete
+                                <TrashBinOutline class="h-6 w-6 text-slate-100"
+                                ></TrashBinOutline>
+                            </Button>
+                        </TableBodyCell>
+                    </TableBodyRow>
+                {/each}
+            </TableBody>
+        </Table>
+    </Squeeze>
 </Center>

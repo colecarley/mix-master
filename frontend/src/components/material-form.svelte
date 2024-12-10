@@ -1,15 +1,11 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-    import { get, post } from "$lib/helpers";
-    import { LocalStorage } from "$lib/localStorage";
     import type { MaterialCreate } from "$lib/entities/materials";
-    import type { ProportionCreate } from "$lib/entities/proportions";
-    import { getAllUnits } from "$lib/entities/units";
-    import Header from "./header.svelte";
-    import Center from "./center.svelte";
-    import Squeeze from "./squeeze.svelte";
-    import ProportionEntityInstance from "$lib/entities/proportions";
     import MaterialEntityInstance from "$lib/entities/materials";
+    import type { ProportionCreate } from "$lib/entities/proportions";
+    import ProportionEntityInstance from "$lib/entities/proportions";
+    import { getAllUnits } from "$lib/entities/units";
+    import { LocalStorage } from "$lib/localStorage";
     import { Button, Input, Label, Select } from "flowbite-svelte";
 
     export let materialForm: MaterialCreate = {

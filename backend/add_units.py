@@ -30,7 +30,7 @@ df = get_units()
 
 
 for (i, row) in df.iterrows():
-    unit = Unit.Unit(name=row["Name"], symbol=row["Symbol"])
+    unit = Unit.Unit(name=row[0], symbol=row[1])
     gen = get_db()
     db = next(gen)
     db.add(unit)

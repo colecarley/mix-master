@@ -1,9 +1,8 @@
-from decimal import Decimal
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import entities.user as User, database, entities.project as Project, entities.mix as Mix, entities.proportion as Proportion, entities.material as Material, entities.unit as Unit, entities.testResult as TestResult
-from pydantic import BaseModel, Field, condecimal
+from pydantic import BaseModel
 from datetime import date
 
 app = FastAPI()
@@ -266,7 +265,7 @@ def get_proportion(mix_id, proportion_id, db: Session = Depends(database.get_db)
 
 @app.get("/units")
 def get_units(db: Session = Depends(database.get_db)):
-    units = list(db.query(Unit.Unit).order_by(Unit.Unit.symbol).all())
+    units = list(db.query(Unit.Unit).order_by(Unit.Unit.name).all())
     return units
 
 @app.get("/units/{unit_id}")

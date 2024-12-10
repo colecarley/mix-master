@@ -1,6 +1,5 @@
 one,1
 one per one,1/1
-minute [unit of angle],
 second [unit of angle],""""
 nil,()
 British thermal unit (thermochemical) per pound degree Rankine,(Btuth/°R)/lb
@@ -1184,7 +1183,6 @@ newton square metre per ampere,N·m²/A
 newton metre squared per kilogram squared,N·m²/kg²
 newton second,N·s
 newton second per metre,N·s/m
-newton per ampere,N/A
 newton per centimetre,N/cm
 newton per square centimetre,N/cm²
 newton per metre,N/m
